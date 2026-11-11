@@ -1,0 +1,224 @@
+{
+  "enabled": true,
+  "slug": "",
+  "pageType": "home",
+  "title": "ROB RUN Guide & Wiki: Server Status, Wipes and How to Play",
+  "description": "ROB RUN game guide for Steam PC: official download, server status, switching servers, wipe rules, PS5 and Xbox availability, and bank account steps.",
+  "navVisible": true,
+  "hero": {
+    "eyebrow": "Unofficial Steam game guide",
+    "heading": "ROB RUN Guide & Wiki",
+    "lead": "ROB RUN is Kefir’s free-to-play multiplayer crime sandbox on Windows PC via Steam. Find the official game, learn what its server and wipe systems mean, and choose a verified guide for the exact problem you are trying to solve.",
+    "supportingText": "Early Access launched November 4, 2026. These independent ROB RUN guides distinguish developer-confirmed rules from changing service conditions; last editorial review November 11, 2026.",
+    "primaryLink": {
+      "label": "Check Server Status",
+      "slug": "server-status"
+    },
+    "secondaryLink": {
+      "label": "Play on Steam (Official)",
+      "url": "https://store.steampowered.com/app/4262460/"
+    }
+  },
+  "sections": [
+    {
+      "id": "what-is-rob-run",
+      "heading": "What Is ROB RUN?",
+      "paragraphs": [
+        "ROB RUN is a free-to-play multiplayer crime sandbox from Kefir, available as an Early Access PC game on Steam. It combines competition over territory and property with multiplayer cooperation and conflict. Use the official store listing to confirm requirements, patches and the genuine download source.",
+        "This independent ROB RUN game guide focuses on five practical tasks with active player search demand: server connection problems, moving between servers, the seven-day wipe cycle, platform availability and opening a bank account. The information below is separated into topic-specific pages so that you can find the answer without sorting through unrelated tips."
+      ]
+    },
+    {
+      "id": "top-guides",
+      "heading": "ROB RUN Guides: Find Your Answer",
+      "intro": "Select the exact problem you need to solve. Each link opens a dedicated page with steps, caveats, FAQs and official sources.",
+      "links": [
+        {
+          "label": "Server Status",
+          "slug": "server-status",
+          "description": "Outages, waiting for status information and connection checks."
+        },
+        {
+          "label": "Change Server",
+          "slug": "change-server",
+          "description": "Official surrender route and joining friends in another state."
+        },
+        {
+          "label": "Wipe Rules",
+          "slug": "wipe",
+          "description": "What a Federal Raid resets and what to verify."
+        },
+        {
+          "label": "Console / PS5",
+          "slug": "console",
+          "description": "Windows, PS5, Xbox and official platform availability."
+        },
+        {
+          "label": "Bank Account",
+          "slug": "bank-account",
+          "description": "Open an account, process cash and use ATMs."
+        }
+      ]
+    },
+    {
+      "id": "rob-run-quick-answers",
+      "heading": "ROB RUN Quick Answers for New Players",
+      "intro": "The fastest answer depends on what you are trying to do. Start here, then open the dedicated guide for context, examples and official source links.",
+      "table": {
+        "caption": "Current ROB RUN questions: direct answers and next steps (reviewed November 11, 2026)",
+        "columns": [
+          "Player question",
+          "Short answer",
+          "Where to go next"
+        ],
+        "rows": [
+          [
+            "Where do I download ROB RUN?",
+            "Use the legitimate Windows game listing on Steam; this website does not host the game.",
+            "Open the Steam store link above."
+          ],
+          [
+            "Are ROB RUN servers online?",
+            "A previous official incident report cannot prove real-time availability. Check the newest developer notice.",
+            "Read Server Status and Connection Fixes."
+          ],
+          [
+            "Why does it say waiting for status information?",
+            "That message can require a server-side status check or local startup troubleshooting; do not assume one cause.",
+            "Follow the server-status checklist."
+          ],
+          [
+            "Can I join a friend on another server?",
+            "Kefir describes a Prison / Surrender to Feds route for changing states; read the warnings before acting.",
+            "Open How to Change Server."
+          ],
+          [
+            "When does ROB RUN wipe?",
+            "Kefir describes a seven-day Federal Raid progression cycle; exact state timing and effects should be checked.",
+            "Read Wipe Schedule and Rules."
+          ],
+          [
+            "Is ROB RUN on PS5 or Xbox?",
+            "At review, the official Steam listing identifies the Windows PC version; no verified console edition was located.",
+            "See PS5, Xbox and PC Availability."
+          ],
+          [
+            "How do I open a bank account?",
+            "Visit the bank in Looty Bay and follow the official game flow. Banking and cash laundering are separate tasks.",
+            "See How to Open a Bank Account."
+          ]
+        ]
+      }
+    },
+    {
+      "id": "start-playing",
+      "heading": "How to Start Playing ROB RUN",
+      "paragraphs": [
+        "Open the legitimate ROB RUN Steam listing and check the current system requirements for your PC. Avoid browser-game mirror websites or unofficial installers that use the game name as bait. The official product page is the reliable starting point for the Windows Early Access version.",
+        "Before moving to another state or taking a high-risk action, read the relevant game prompt and developer support article. In ROB RUN, a wipe is a gameplay cycle and a surrender-based server change may have consequences. These are different from temporary maintenance or local connection trouble."
+      ],
+      "table": {
+        "caption": "ROB RUN official fact sheet, reviewed November 11, 2026",
+        "columns": [
+          "Item",
+          "Verified information"
+        ],
+        "rows": [
+          [
+            "Game",
+            "ROB RUN"
+          ],
+          [
+            "Developer / publisher",
+            "Kefir"
+          ],
+          [
+            "Official platform",
+            "Windows PC via Steam"
+          ],
+          [
+            "Release status",
+            "Early Access, November 4, 2026"
+          ],
+          [
+            "Price at review",
+            "Free To Play"
+          ],
+          [
+            "Official store",
+            "store.steampowered.com/app/4262460/"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "choosing-a-rob-run-guide",
+      "heading": "Which ROB RUN Guide Should You Open First?",
+      "paragraphs": [
+        "Searches for ROB RUN servers, server status, and waiting for status information often overlap, but they are not exactly the same question. If the game is failing to connect, start with the server-status page, check the date of the newest official statement, and compare that statement with your current error. An older report about an attack or maintenance window should never be presented as a live uptime signal.",
+        "If the game loads but a friend is playing in a different state, use the change-server instructions rather than treating it as a crash. The official process involves in-game actions and can affect progress. Read the prompts before you confirm any choice, and do not confuse switching an individual state with changing a global service region.",
+        "If you are deciding whether to invest money or time in a particular world, read the wipe rules before you commit. Federal Raid resets are about progression. Server outages are about availability. A new state appearing in a server list is also not proof that every older state was wiped.",
+        "Players searching for ROB RUN PS5, Xbox, or mobile mostly need a platform answer before downloading anything. Our console page starts with what the Steam listing actually supports, distinguishes unannounced platforms from confirmed plans, and points you back to official sources rather than third-party download sites.",
+        "Finally, the bank-account guide is for players already inside the game who want a specific financial action. It separates opening an account, depositing or processing money, and using ATMs. Do not assume a bank balance is immune to a reset unless the current official game rules say so."
+      ]
+    },
+    {
+      "id": "what-to-check",
+      "heading": "Servers, Wipes and Progress: Important Differences",
+      "paragraphs": [
+        "A connection error is not proof of an active Federal Raid. Look at official incident reports if you cannot connect, then use the server status guide to distinguish a widespread service problem from a local problem.",
+        "The regular Federal Raid wipe cycle is a separate question about world progression. The exact state schedule and the list of affected assets should be checked using Kefir support and current in-game notices. Changing servers to join a friend is yet another action; the change-server guide explains the official route.",
+        "For money and property questions, keep in mind that a bank account and a base are different systems. Our banking guide separates opening an account, processing relevant cash and withdrawing at an ATM. We do not claim that every balance persists through a wipe."
+      ]
+    },
+    {
+      "id": "platforms",
+      "heading": "PC, PS5, Xbox and the Official Download",
+      "paragraphs": [
+        "Steam currently lists the verified Windows PC edition. We have not confirmed official PS5 or Xbox releases in the cited primary sources as of November 11, 2026. That does not rule out later announcements. Check the platform guide before trusting third-party “console download” links.",
+        "This website is not an official ROB RUN service or a browser game. It does not host the executable, provide a fabricated player-count widget or claim real-time server health. Use official sources for downloads and live announcements."
+      ]
+    },
+    {
+      "id": "official-reference",
+      "heading": "Official ROB RUN Sources and Transparency",
+      "paragraphs": [
+        "Steam: https://store.steampowered.com/app/4262460/ . Developer help: https://kefirgames.helpshift.com/hc/en/14-rob-run/ . Announcements: https://steamcommunity.com/app/4262460/allnews/ . This unofficial fan-made guide was last reviewed on November 11, 2026.",
+        "Official statements and historical incident notes are not live measurements. For changing game mechanics, the current client and latest developer instructions take precedence over this guide."
+      ]
+    },
+    {
+      "id": "rob-run-guide-editorial-policy",
+      "heading": "How This ROB RUN Guide Is Kept Accurate",
+      "paragraphs": [
+        "ROB RUN is in Early Access, so launch-week systems, menus, and server behavior may change quickly. This site is an independent game guide, not a Kefir website or a live game operator. We use the official Steam product page for game identity, the Kefir Help Center for published gameplay instructions, and official developer announcements for dated events. Whenever sources conflict, current in-game wording and the latest official notice should take precedence.",
+        "This distinction matters most for server status. A dated news post can establish that a disruption happened; it cannot establish what is happening on a specific server the moment you open this page. Likewise, a search suggestion for a console version, bank feature, or item does not prove that the feature exists. Guides should state what is verified, what is time-sensitive, and what remains unconfirmed.",
+        "For each of the five question pages, we aim to show the answer near the top, then offer decision steps, exceptions and official references. Navigation cards are links to actual published pages, not fabricated buttons. If you spot a discrepancy, validate it in the current client and compare it to the linked primary source before relying on an older screenshot or commentary."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is ROB RUN free?",
+      "answer": "Yes, the Steam listing currently shows Free To Play."
+    },
+    {
+      "question": "Is ROB RUN on Steam?",
+      "answer": "Yes, Steam app 4262460."
+    },
+    {
+      "question": "Is ROB RUN a Roblox game?",
+      "answer": "No. The target entity is the Kefir Steam game, not an unrelated Roblox title."
+    },
+    {
+      "question": "Where do I check outages?",
+      "answer": "Use official Kefir announcements; open our server troubleshooting page."
+    },
+    {
+      "question": "Can I play ROB RUN on PS5 or Xbox?",
+      "answer": "A console release was not confirmed by the official primary sources reviewed on November 11, 2026. See the platform guide."
+    }
+  ],
+  "screenshots": [],
+  "lastReviewed": "2026-11-11"
+}

@@ -1,0 +1,997 @@
+[
+  {
+    "enabled": true,
+    "slug": "server-status",
+    "pageType": "guide",
+    "navLabel": "Server Status",
+    "title": "ROB RUN Server Status: Outages & Waiting for Status Info",
+    "description": "Check ROB RUN server announcements, recent connection issues and what to try when stuck on “waiting for status information.” Sources and timestamps included.",
+    "navVisible": true,
+    "hero": {
+      "eyebrow": "ROB RUN practical guide · Reviewed Nov 11, 2026",
+      "heading": "ROB RUN Server Status & Connection Problems",
+      "lead": "Kefir confirmed DDoS-related connection drops and lag during launch week, and later reported improvement without saying the issue was fully resolved. This is historical developer information—not a claim about live server uptime. Check official announcements now before troubleshooting your PC."
+    },
+    "sections": [
+      {
+        "id": "rob-run-server-status-what-is-confirmed",
+        "heading": "ROB RUN Server Status: What Is Confirmed?",
+        "intro": "The ROB RUN server status question has two different meanings. An announcement can confirm that the developer was investigating an incident at the time it was posted; it cannot establish that every individual state server is healthy right now. This guide is an incident-reference and troubleshooting resource, not a live server monitor. For current information, follow the developer announcements linked below before deciding that your own connection is the problem.",
+        "subsections": [
+          {
+            "heading": "What a notice proves",
+            "paragraphs": [
+              "Check the publication date and time before sharing an announcement as evidence. A report about DDoS attempts or maintenance proves an issue was acknowledged at that moment; it does not prove a present global outage.",
+              "If the latest official notice has not changed, label it as the latest notice rather than automatically assigning an Online or Offline status. This site does not operate a live endpoint probe."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "waiting-for-status-information-what-to-check",
+        "heading": "Waiting for Status Information: What to Check",
+        "intro": "If ROB RUN stalls on waiting for status information, first record the exact wording and when the message appears. Check whether Steam has a pending download or game update. Then read the latest official announcement, close and reopen the client, and check your own network connection. If the developer has acknowledged widespread service disruption, repeated local reinstall attempts may not solve a server-side problem. These are diagnostic checks, not guaranteed fixes.",
+        "subsections": [
+          {
+            "heading": "Check the exact startup symptom",
+            "paragraphs": [
+              "Record whether the client freezes before sign-in, displays waiting for status information, or disconnects after joining a state; these are different troubleshooting branches.",
+              "Check Steam downloads, restart the game and Steam once, and compare your result with Kefir’s current troubleshooting notes. Avoid reinstalling repeatedly while an active widespread issue is acknowledged."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "is-rob-run-down-or-is-it-just-my-server",
+        "heading": "Is ROB RUN Down, or Is It Just My Server?",
+        "intro": "When reporting a connection problem, include the time and timezone, EU or East US region if known, the state/server involved, and the precise message on screen. If it is safe, include a screenshot with account details obscured. Never publish account passwords, Steam authentication codes, payment information or private identifiers to a public discussion. State whether the problem is reproducible after a restart.",
+        "subsections": [
+          {
+            "heading": "Compare several signals",
+            "paragraphs": [
+              "Ask whether friends in the same state and region have the same error. One failing state does not demonstrate that the entire game is offline, and a large Steam player total does not prove your specific state is reachable.",
+              "Report the exact UTC time, the region selected, the client version and the message shown. Never include your credentials or session tokens in a public screenshot."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "server-regions-and-fresh-server-notices",
+        "heading": "Server Regions and Fresh Server Notices",
+        "intro": "A region, a new state, and a single client session are different scopes. A global Steam player-count number does not tell you whether the specific state you selected can accept connections. If other friends are unaffected, compare game versions, region and state before assuming a global outage. Avoid changing server merely to bypass an issue until you have read the consequences in our switching guide.",
+        "subsections": [
+          {
+            "heading": "Region versus state",
+            "paragraphs": [
+              "Kefir has referred to EU and East US server regions. Treat a region, a fresh state and an individual session as different levels; do not mistake one for another.",
+              "Consult the change-server guide before using a surrender-based move to escape connection errors. A server move may carry gameplay consequences unrelated to the original outage."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "known-incidents-and-developer-updates",
+        "heading": "Known Incidents and Developer Updates",
+        "intro": "During launch week, developer/community notices discussed DDoS-related instability, lag and connection errors. Those reports establish that the issue was real then, not that servers are currently down. This page was reviewed on November 11, 2026; its date should not be interpreted as a continuously updated heartbeat. Use developer announcements for the most recent authoritative statement.",
+        "subsections": [
+          {
+            "heading": "Read incident dates",
+            "paragraphs": [
+              "Use the date of the developer post, not this article’s review date, when referring to launch-week connection attacks or lag. A later message may supersede an earlier report.",
+              "Do not convert the absence of a new notice into a guarantee that all states are healthy. Check the current announcement stream and in-game notices before drawing a conclusion."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "what-to-include-in-a-bug-report",
+        "heading": "What to Include in a Bug Report",
+        "intro": "This guide is a dated summary of the verified primary sources. Confirm all changing game rules against official help and announcements before acting. Specific destinations, times and mechanics can be different after game updates; we do not present an unverified claim as established fact.",
+        "subsections": [
+          {
+            "heading": "Prepare a useful support report",
+            "paragraphs": [
+              "Provide the in-game error text, whether the issue began before or after loading a state, your approximate UTC timestamp, and what changed after a client restart.",
+              "Attach an image only after hiding personal identifiers. Kefir’s support instructions invite a description of the events before the issue and an image or video when appropriate."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "critical-checks",
+        "heading": "A five-minute connection check",
+        "paragraphs": [
+          "Check Steam downloads before changing any game setting. Read the newest developer announcement and compare its timestamp to your own error. Note whether the client reaches a character or state selection screen, or stops earlier while requesting status information. Restart the game once after completing a pending update. If the official notice mentions regional disruption, it is sensible to avoid repeated destructive local changes until the issue is resolved."
+        ]
+      },
+      {
+        "id": "what-to-verify",
+        "heading": "What this guide cannot tell you",
+        "paragraphs": [
+          "A Steam player total, a server list screenshot and a message posted earlier in the week are not measurements of the exact server you need today. This site has no authenticated game-server telemetry integration. We will not display a green ONLINE badge or a fabricated last-updated counter. If you need current availability, click the linked official developer announcements and inspect their dates."
+        ]
+      },
+      {
+        "id": "quick-reference",
+        "heading": "Quick reference and decisions",
+        "intro": "These are practical starting points, not a live telemetry feed. Review original sources and in-game warnings before taking irreversible actions.",
+        "table": {
+          "caption": "ROB RUN: quick reference for server status",
+          "columns": [
+            "Situation",
+            "Best next action",
+            "Important limit"
+          ],
+          "rows": [
+            [
+              "Status screen frozen",
+              "Read latest developer announcement",
+              "No live uptime API here"
+            ],
+            [
+              "Game client outdated",
+              "Check Steam game updates",
+              "A patch may not fix server outage"
+            ],
+            [
+              "Only one state affected",
+              "Compare state and region",
+              "Player count does not prove availability"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "official-sources",
+        "heading": "Official sources and review date",
+        "paragraphs": [
+          "Reviewed on November 11, 2026. This independent guide summarizes official sources at the time of writing. Server status, platform announcements, wipe timing and game interfaces may change. Consult the original sources directly for updates.",
+          "Official ROB RUN Steam listing: https://store.steampowered.com/app/4262460/ . Kefir game help center: https://kefirgames.helpshift.com/hc/en/14-rob-run/ . Steam announcements: https://steamcommunity.com/app/4262460/allnews/ .",
+          "This is a fan-made guide, not an official service-status dashboard or an affiliated game download. Do not provide game credentials, personal information or payment details to unofficial links."
+        ]
+      },
+      {
+        "id": "related-guides",
+        "heading": "Related ROB RUN guides",
+        "links": [
+          {
+            "label": "Change Server",
+            "slug": "change-server",
+            "description": "Read the dedicated ROB RUN guide."
+          },
+          {
+            "label": "Wipe Rules",
+            "slug": "wipe",
+            "description": "Read the dedicated ROB RUN guide."
+          },
+          {
+            "label": "Console / PS5",
+            "slug": "console",
+            "description": "Read the dedicated ROB RUN guide."
+          }
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "Is ROB RUN down right now?",
+        "answer": "We cannot guarantee real-time status; check latest developer announcement and Steam news."
+      },
+      {
+        "question": "Why am I stuck on waiting for status information?",
+        "answer": "The client is waiting for a response; check official incidents and local Steam updates before trying more steps."
+      },
+      {
+        "question": "Can a Steam player count prove servers are up?",
+        "answer": "No. A global count cannot verify your specific state server."
+      },
+      {
+        "question": "Where do I see maintenance notices?",
+        "answer": "Official game news and announcements."
+      }
+    ],
+    "screenshots": [],
+    "relatedSlugs": [
+      "change-server",
+      "wipe",
+      "console"
+    ],
+    "lastReviewed": "2026-11-11"
+  },
+  {
+    "enabled": true,
+    "slug": "change-server",
+    "pageType": "guide",
+    "navLabel": "Change Server",
+    "title": "How to Change Server in ROB RUN and Join Friends",
+    "description": "Change servers in ROB RUN using the official Prison and Surrender to Feds route. Follow the steps, resend your invite and review what to check before moving.",
+    "navVisible": true,
+    "hero": {
+      "eyebrow": "ROB RUN practical guide · Reviewed Nov 11, 2026",
+      "heading": "How to Change Server in ROB RUN",
+      "lead": "Kefir’s official help route: open the global map, select Prison and choose “Surrender to Feds”; once in prison, change to your friend’s server, then resend the party invite. Before surrendering, check what you may lose."
+    },
+    "sections": [
+      {
+        "id": "how-to-change-server-in-rob-run-official-steps",
+        "heading": "How to Change Server in ROB RUN: Official Steps",
+        "intro": "According to Kefir support, when a party invitation says your friend is on another server, open the global map, locate Prison, choose Surrender to Feds and use the server-change option while in prison. Once you have selected your friend’s destination, send a new party invitation. The exact appearance of menus can change between game versions; follow the names shown in your current client rather than an unverified screenshot.",
+        "subsections": [
+          {
+            "heading": "The published route",
+            "paragraphs": [
+              "Kefir’s support instructions describe opening the global map, selecting the Prison and choosing Surrender to Feds. The character can then select the destination state inside the Prison flow.",
+              "Check the current in-game confirmation screens before taking the action. Names and consequences may change during Early Access; this article is not a substitute for the warning shown to your character."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "join-a-friend-on-another-server",
+        "heading": "Join a Friend on Another Server",
+        "intro": "Surrender is an in-game action and can affect your situation. Do not treat it as a risk-free region selector. Before proceeding, inspect in-game warnings and any current official rules on held items, buildings and team progress. Kefir’s invitation troubleshooting note provides the route but does not list every possible property or inventory consequence; this guide deliberately avoids inventing a guaranteed retention list.",
+        "subsections": [
+          {
+            "heading": "Match a friend’s state",
+            "paragraphs": [
+              "Ask your friend for the exact region and state they are on; a similar state label does not guarantee you have selected the same destination.",
+              "Use the official in-game party or invitation flow after joining the destination. If the invitation still says different servers, compare both players’ state and region rather than repeatedly clicking join."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "what-you-may-lose-when-switching",
+        "heading": "What You May Lose When Switching",
+        "intro": "A region is the broader geographic service area, while a state/server is the shared world your character enters. Two players may be in the same broad region but not the same state, so their invitation may still fail. Confirm the destination with the friend who is already inside before surrendering. A newly opened state is not the same thing as changing an existing state’s wipe schedule.",
+        "subsections": [
+          {
+            "heading": "Progress may be affected",
+            "paragraphs": [
+              "Do not assume that every item, base, plot or resource transfers when switching states. The surrender screen and the current support article should be treated as the authority.",
+              "Before committing, review what matters to you: shared housing, cash, equipment, friends, and your current state’s progression. Avoid promises that a particular asset is always retained."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "changing-region-vs-changing-state",
+        "heading": "Changing Region vs Changing State",
+        "intro": "If the invite still fails, compare both players’ selected state and game versions, then retry the invitation instead of endlessly repeating the surrender procedure. Check the latest official support and service announcements if the problem began during maintenance. If the option is missing, capture the client version and menu where you expected it; do not assume an old guide describes the current interface.",
+        "subsections": [
+          {
+            "heading": "Know the scope",
+            "paragraphs": [
+              "Switching a state inside the game is not the same as selecting an EU or East US region. If the region you need is absent, do not invent a hidden toggle.",
+              "The server selector shown at your current build is the source of truth. Regional choices and capacity may change with patches."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "server-age-and-fresh-starts",
+        "heading": "Server Age and Fresh Starts",
+        "intro": "Do not look for a Roblox-style game server list: ROB RUN is a separate Steam title. Do not assume simply leaving a party transfers a character to another state. Do not tell friends that switching preserves all property until you have confirmed the current warning. Refer to official game support for changes to the surrender process.",
+        "subsections": [
+          {
+            "heading": "New states are not wipes",
+            "paragraphs": [
+              "A freshly opened state may have a different age or economy than the one your friend occupies. That does not establish that the original state was reset.",
+              "Check the original state and its Federal Raid cycle separately. See our wipe guide for the difference between a planned reset and the launch of an additional state."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "troubleshooting-missing-prison-or-server-options",
+        "heading": "Troubleshooting Missing Prison or Server Options",
+        "intro": "This guide is a dated summary of the verified primary sources. Confirm all changing game rules against official help and announcements before acting. Specific destinations, times and mechanics can be different after game updates; we do not present an unverified claim as established fact.",
+        "subsections": [
+          {
+            "heading": "If the action is missing",
+            "paragraphs": [
+              "Make sure the game loaded completely and inspect the current global map. Compare your screen to the support article rather than following an unverified shortcut.",
+              "If the Prison or surrender option is absent, capture the game build and screen state and consult current support guidance; do not recommend deleting local game files as a server-switch method."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "critical-checks",
+        "heading": "Before pressing Surrender to Feds",
+        "paragraphs": [
+          "Confirm the exact state your friend is using and whether a new invitation is required. Tell your party members you are about to change state, then read the warning shown by your game client. Make sure you are not relying on an unverified assumption that inventory, land and money will travel with you. The official help describes how to resolve a friend mismatch, not an exhaustive guarantee for every item."
+        ]
+      },
+      {
+        "id": "what-to-verify",
+        "heading": "If you cannot find Prison",
+        "paragraphs": [
+          "Use the global map search and location cues in your current version of ROB RUN. The official procedure names Prison and Surrender to Feds; a stale guide image could show a different map arrangement. If the map itself will not load, solve the connection problem before making repeated attempts. Keep the game version and any error text ready if you contact support."
+        ]
+      },
+      {
+        "id": "quick-reference",
+        "heading": "Quick reference and decisions",
+        "intro": "These are practical starting points, not a live telemetry feed. Review original sources and in-game warnings before taking irreversible actions.",
+        "table": {
+          "caption": "ROB RUN: quick reference for change server",
+          "columns": [
+            "Situation",
+            "Best next action",
+            "Important limit"
+          ],
+          "rows": [
+            [
+              "Friend on another state",
+              "Use Prison surrender route",
+              "Check game warning before proceeding"
+            ],
+            [
+              "Invite mismatch persists",
+              "Resend invite after switch",
+              "Confirm both target same state"
+            ],
+            [
+              "Regional lag",
+              "Check official service notice",
+              "State and region are different"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "official-sources",
+        "heading": "Official sources and review date",
+        "paragraphs": [
+          "Reviewed on November 11, 2026. This independent guide summarizes official sources at the time of writing. Server status, platform announcements, wipe timing and game interfaces may change. Consult the original sources directly for updates.",
+          "Official ROB RUN Steam listing: https://store.steampowered.com/app/4262460/ . Kefir game help center: https://kefirgames.helpshift.com/hc/en/14-rob-run/ . Steam announcements: https://steamcommunity.com/app/4262460/allnews/ .",
+          "This is a fan-made guide, not an official service-status dashboard or an affiliated game download. Do not provide game credentials, personal information or payment details to unofficial links."
+        ]
+      },
+      {
+        "id": "related-guides",
+        "heading": "Related ROB RUN guides",
+        "links": [
+          {
+            "label": "Server Status",
+            "slug": "server-status",
+            "description": "Read the dedicated ROB RUN guide."
+          },
+          {
+            "label": "Wipe Rules",
+            "slug": "wipe",
+            "description": "Read the dedicated ROB RUN guide."
+          },
+          {
+            "label": "Console / PS5",
+            "slug": "console",
+            "description": "Read the dedicated ROB RUN guide."
+          }
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "Can I change servers without prison?",
+        "answer": "No alternative is documented in Kefir’s cited help article."
+      },
+      {
+        "question": "Can I join a friend on another ROB RUN server?",
+        "answer": "Yes, use the prison-based switch, then resend the party invite."
+      },
+      {
+        "question": "Will switching servers delete my base?",
+        "answer": "Do not promise preservation; inspect the latest in-game warning before confirming."
+      },
+      {
+        "question": "Can I change from EU to East US?",
+        "answer": "Server selection occurs in prison; region availability should be verified in current client."
+      }
+    ],
+    "screenshots": [],
+    "relatedSlugs": [
+      "server-status",
+      "wipe",
+      "console"
+    ],
+    "lastReviewed": "2026-11-11"
+  },
+  {
+    "enabled": true,
+    "slug": "wipe",
+    "pageType": "guide",
+    "navLabel": "Wipe Rules",
+    "title": "ROB RUN Wipe Schedule: 7-Day Federal Raid & Resets",
+    "description": "ROB RUN wipes follow a seven-day Federal Raid cycle. See what is reset, what carries over and how to check your own server’s next reset without fake countdowns.",
+    "navVisible": true,
+    "hero": {
+      "eyebrow": "ROB RUN practical guide · Reviewed Nov 11, 2026",
+      "heading": "ROB RUN Wipe Schedule and Reset Rules",
+      "lead": "Kefir says each server has a seven-day Federal Raid cycle: plots, bases, weapons and cash reset and convert into jail time and authority. Cosmetics, your name, tutorial progress, settings and accumulated jail time carry over."
+    },
+    "sections": [
+      {
+        "id": "how-often-does-rob-run-wipe",
+        "heading": "How Often Does ROB RUN Wipe?",
+        "intro": "Kefir describes a recurring Federal Raid wipe cycle for ROB RUN. The published help documentation discusses resets on a seven-day cadence, but a seven-day rule is not a guarantee that all state servers reset simultaneously at one worldwide clock time. Distinguish each state’s lifecycle from fresh server openings and maintenance events.",
+        "subsections": [
+          {
+            "heading": "Seven-day cycle, not one global time",
+            "paragraphs": [
+              "Kefir describes a Federal Raid wipe cycle of approximately seven days for a state. A state-specific timer should be checked in the game rather than calculated from one sitewide launch timestamp.",
+              "Distinguish the normal progression reset from maintenance, a disconnection, a new state launch, or a planned server opening."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "what-gets-wiped-vs-what-carries-over",
+        "heading": "What Gets Wiped vs What Carries Over",
+        "intro": "The wipe can reset world progress, including land plots, bases, weapons and in-game cash according to official guidance. Whether a particular account-level entitlement or item carries over must be checked against the latest official article and current in-game wording. Avoid relying on old player-created infographics; this distinction matters when deciding whether to invest in a base shortly before a reset.",
+        "subsections": [
+          {
+            "heading": "Check item-by-item",
+            "paragraphs": [
+              "Do not reduce the wipe question to everything resets or nothing resets. Inventory, buildings, bank balances, penalties and character identity may follow different rules.",
+              "Read the current in-game Federal Raid notice and Kefir Help Center. This guide does not assert that an item survives unless supported by those sources."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "when-is-the-next-wipe-on-my-server",
+        "heading": "When Is the Next Wipe on My Server?",
+        "intro": "First establish the state you are playing on and its age, then check the most recent developer post or in-game notice for that specific state. Do not calculate a universal countdown from the November 4 Steam launch date. A simple seven-day arithmetic timer cannot prove the actual restart time after patch rescheduling, outages or newly opened servers.",
+        "subsections": [
+          {
+            "heading": "Find your state’s schedule",
+            "paragraphs": [
+              "Identify your exact server or state and the countdown shown inside your current game build. A global average is not a valid next-wipe timer for every state.",
+              "If a community site shows a countdown, check its timezone, refresh mechanism and official evidence before treating it as authoritative."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "federal-raid-money-authority-and-jail-time",
+        "heading": "Federal Raid: Money, Authority and Jail Time",
+        "intro": "Before your next session, learn which goals are tied to the current state versus your player account. If you need to move to a fresh state to play with friends, review the server change guide separately: joining another server and waiting for a scheduled raid are not interchangeable actions. Consider wrapping up short-term projects if the current state announces a wipe soon.",
+        "subsections": [
+          {
+            "heading": "A Federal Raid has distinct effects",
+            "paragraphs": [
+              "The wipe is a game-world progression event, not the same as surrendering to switch a server. Do not confuse the two Prison-related concepts.",
+              "Read current notices for how cash, authority and jail time are handled. In particular, avoid broad guarantees that a bank action protects progress from Federal Raid effects."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "fresh-server-vs-server-wipe",
+        "heading": "Fresh Server vs Server Wipe",
+        "intro": "A scheduled Federal Raid is part of the game cycle. A rollback can occur when developers recover from an unexpected issue, and maintenance can temporarily interrupt service without triggering the full wipe rules. Do not interpret a developer incident notice as proof that a scheduled Federal Raid occurred. For service disruption, consult the server status guide and official updates.",
+        "subsections": [
+          {
+            "heading": "New worlds versus existing worlds",
+            "paragraphs": [
+              "A new state opening can let a player choose a fresh start. That event does not prove that every currently active state was wiped at that hour.",
+              "If you are meeting friends, compare both state identities before deciding whether a new world is desirable. The switch-server guide covers the separate joining process."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "prepare-for-a-reset",
+        "heading": "Prepare for a Reset",
+        "intro": "This guide is a dated summary of the verified primary sources. Confirm all changing game rules against official help and announcements before acting. Specific destinations, times and mechanics can be different after game updates; we do not present an unverified claim as established fact.",
+        "subsections": [
+          {
+            "heading": "A practical pre-wipe checklist",
+            "paragraphs": [
+              "Check the in-game countdown and capture the current rules for items or balances that matter to you. Coordinate with your group before moving or spending resources.",
+              "Do not rely on an unofficial universal schedule, and do not spend premium or limited resources on the assumption that an unverified item will be preserved."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "critical-checks",
+        "heading": "Ask the right question about a specific item",
+        "paragraphs": [
+          "When you ask whether something survives a wipe, specify whether it belongs to a world state, a base, personal inventory, bank account or longer-lived player identity. An item carried into a new state is a different question from an item surviving a scheduled Federal Raid on the same state. Rely on the current official rules rather than assuming all progress is protected or all progress is lost."
+        ]
+      },
+      {
+        "id": "what-to-verify",
+        "heading": "Why a universal wipe timer is misleading",
+        "paragraphs": [
+          "Individual state ages, fresh state openings and changes announced by the developer can affect when you should expect a reset. Even if a regular seven-day cycle is documented, adding seven days to the game’s Steam release date will not identify every state’s next reset. Check the relevant state and current announcement before scheduling a raid, transfer or major base project."
+        ]
+      },
+      {
+        "id": "quick-reference",
+        "heading": "Quick reference and decisions",
+        "intro": "These are practical starting points, not a live telemetry feed. Review original sources and in-game warnings before taking irreversible actions.",
+        "table": {
+          "caption": "ROB RUN: quick reference for wipe",
+          "columns": [
+            "Situation",
+            "Best next action",
+            "Important limit"
+          ],
+          "rows": [
+            [
+              "Seven-day Federal Raid",
+              "Check current state schedule",
+              "Never assume global timer"
+            ],
+            [
+              "Banked cash",
+              "Check official retention rules",
+              "No blanket guarantee"
+            ],
+            [
+              "Unexpected rollback",
+              "Consult incident notice",
+              "Not automatically a scheduled wipe"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "official-sources",
+        "heading": "Official sources and review date",
+        "paragraphs": [
+          "Reviewed on November 11, 2026. This independent guide summarizes official sources at the time of writing. Server status, platform announcements, wipe timing and game interfaces may change. Consult the original sources directly for updates.",
+          "Official ROB RUN Steam listing: https://store.steampowered.com/app/4262460/ . Kefir game help center: https://kefirgames.helpshift.com/hc/en/14-rob-run/ . Steam announcements: https://steamcommunity.com/app/4262460/allnews/ .",
+          "This is a fan-made guide, not an official service-status dashboard or an affiliated game download. Do not provide game credentials, personal information or payment details to unofficial links."
+        ]
+      },
+      {
+        "id": "related-guides",
+        "heading": "Related ROB RUN guides",
+        "links": [
+          {
+            "label": "Server Status",
+            "slug": "server-status",
+            "description": "Read the dedicated ROB RUN guide."
+          },
+          {
+            "label": "Change Server",
+            "slug": "change-server",
+            "description": "Read the dedicated ROB RUN guide."
+          },
+          {
+            "label": "Console / PS5",
+            "slug": "console",
+            "description": "Read the dedicated ROB RUN guide."
+          }
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "Does ROB RUN wipe every week?",
+        "answer": "Kefir currently documents a seven-day cycle; subject to future changes."
+      },
+      {
+        "question": "Do you lose cash in a wipe?",
+        "answer": "Yes, according to official help."
+      },
+      {
+        "question": "Does your character name reset?",
+        "answer": "No, it carries over."
+      },
+      {
+        "question": "Does a new server opening reset my old server?",
+        "answer": "No, distinguish separate state life cycles."
+      }
+    ],
+    "screenshots": [],
+    "relatedSlugs": [
+      "server-status",
+      "change-server",
+      "console"
+    ],
+    "lastReviewed": "2026-11-11"
+  },
+  {
+    "enabled": true,
+    "slug": "console",
+    "pageType": "guide",
+    "navLabel": "Console / PS5",
+    "title": "Is ROB RUN on PS5 or Xbox? Console & PC Support",
+    "description": "Is ROB RUN on PS5 or Xbox? Check the verified Steam platform listing, current Windows PC availability and whether Kefir has announced a console release.",
+    "navVisible": true,
+    "hero": {
+      "eyebrow": "ROB RUN practical guide · Reviewed Nov 11, 2026",
+      "heading": "Is ROB RUN on Console, PS5 or Xbox?",
+      "lead": "As checked November 11, 2026, ROB RUN is officially available for Windows PC via Steam. The checked official store and announcements do not list an announced PS5 or Xbox release date. Absence of an announcement is not a promise the game will never come to console."
+    },
+    "sections": [
+      {
+        "id": "is-rob-run-on-ps5",
+        "heading": "Is ROB RUN on PS5?",
+        "intro": "The official Steam store lists ROB RUN as a Windows PC title. As of this review, the cited official listing does not establish a PlayStation 5 or Xbox release. The safest current way to install the game is through Steam on a supported PC, not a third-party download page advertising a console or browser port.",
+        "subsections": [
+          {
+            "heading": "PS5 status at review",
+            "paragraphs": [
+              "The verified Steam listing provides a Windows PC game and does not provide a PS5 storefront download. We did not locate an official PS5 launch announcement in the primary sources reviewed on November 11, 2026.",
+              "No official console release announcement found is not the same as a promise that a future PS5 version will never happen. Check the developer’s latest announcement channel."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "is-rob-run-on-xbox",
+        "heading": "Is ROB RUN on Xbox?",
+        "intro": "We did not find an official PS5 release announcement among the primary sources used for this guide. That is a status statement about currently verified sources, not a claim that a future PlayStation release is impossible. Before trusting a promised launch date, require a direct store listing or an announcement from Kefir.",
+        "subsections": [
+          {
+            "heading": "Xbox status at review",
+            "paragraphs": [
+              "The available Steam product information identifies the PC edition; it does not establish a released Xbox Series X|S or Xbox One edition.",
+              "Treat websites advertising a ROB RUN Xbox installer as unverified unless a legitimate platform storefront or developer account confirms it."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "where-can-you-play-rob-run-today",
+        "heading": "Where Can You Play ROB RUN Today?",
+        "intro": "The same distinction applies to Xbox: no Xbox release is confirmed by the official Steam listing and available support resources reviewed here. Search results that reuse ROB RUN artwork or a generic “Xbox download” button are not evidence of a licensed console build. A valid Xbox release should have an official platform listing or verified developer announcement.",
+        "subsections": [
+          {
+            "heading": "Where to get the genuine game",
+            "paragraphs": [
+              "Use the Steam App 4262460 listing for the verified Windows game. Check its system requirements, free-to-play price and developer name before installing.",
+              "This independent guide is not an online browser edition; its Play on Steam link must take you to the official product page, not to Roblox or an unrelated game."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "rob-run-console-release-date-what-is-confirmed",
+        "heading": "ROB RUN Console Release Date: What Is Confirmed?",
+        "intro": "Windows PC support should not be confused with guaranteed Steam Deck, macOS, Linux or mobile compatibility. Third-party videos may demonstrate workarounds but are not official support commitments. Verify platform compatibility at the source and review the current game requirements before assuming that controller input or a handheld PC is supported.",
+        "subsections": [
+          {
+            "heading": "Release dates need primary evidence",
+            "paragraphs": [
+              "A console-related rising search query signals interest, not a planned port. Do not transform an autocomplete suggestion into a claimed release date.",
+              "If Kefir announces a console version, confirm the platform, exact wording and date directly in official Steam news or the console storefront before changing this page."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "controller-and-steam-deck-status",
+        "heading": "Controller and Steam Deck Status",
+        "intro": "This guide links primary official sources. When a new console platform is formally announced, the platform table and this section should be updated with the exact official date and original source. Until then, the page intentionally does not provide a console release countdown, preorder URL or fabricated install instructions.",
+        "subsections": [
+          {
+            "heading": "Controller versus platform support",
+            "paragraphs": [
+              "Controller input and Steam Deck compatibility are different questions from whether the game has a native console release. Do not infer a PS5 version from a PC controller test.",
+              "Check current Steam controller and Deck compatibility indicators. A personal workaround is not an official compatibility guarantee."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "official-download-safety-and-fake-app-names",
+        "heading": "Official Download, Safety and Fake App Names",
+        "intro": "This guide is a dated summary of the verified primary sources. Confirm all changing game rules against official help and announcements before acting. Specific destinations, times and mechanics can be different after game updates; we do not present an unverified claim as established fact.",
+        "subsections": [
+          {
+            "heading": "Avoid mistaken downloads",
+            "paragraphs": [
+              "Beware unofficial APK, PS5, Xbox and browser-play pages that use the ROB RUN name. They are not proof of a licensed edition.",
+              "Verify the publisher, platform and store domain. Do not enter Steam credentials into a random fan guide or download an executable supplied by an unrelated mirror."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "critical-checks",
+        "heading": "How to verify future platform announcements",
+        "paragraphs": [
+          "Use the developer’s official Steam announcements or a verified console storefront listing rather than third-party video thumbnails, fan mockups or search snippets. Check whether the announcement identifies ROB RUN by Kefir and a confirmed platform date. A promised PS5 controller layout or Xbox logo on an unofficial website is not enough to prove an actual downloadable console edition."
+        ]
+      },
+      {
+        "id": "what-to-verify",
+        "heading": "A note about controller use on PC",
+        "paragraphs": [
+          "A Windows release does not by itself confirm a certified console port or native controller support. Player reports about configuring a controller through Steam can be useful experiments, but they do not change the list of officially supported platforms. Before purchasing extra hardware, review the store page and any published developer guidance for your setup."
+        ]
+      },
+      {
+        "id": "quick-reference",
+        "heading": "Quick reference and decisions",
+        "intro": "These are practical starting points, not a live telemetry feed. Review original sources and in-game warnings before taking irreversible actions.",
+        "table": {
+          "caption": "ROB RUN: quick reference for console",
+          "columns": [
+            "Situation",
+            "Best next action",
+            "Important limit"
+          ],
+          "rows": [
+            [
+              "Windows PC",
+              "Official Steam store",
+              "Verified listing"
+            ],
+            [
+              "PlayStation 5",
+              "Look for official release announcement",
+              "No verified PS5 release"
+            ],
+            [
+              "Xbox",
+              "Look for official release announcement",
+              "No verified Xbox release"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "official-sources",
+        "heading": "Official sources and review date",
+        "paragraphs": [
+          "Reviewed on November 11, 2026. This independent guide summarizes official sources at the time of writing. Server status, platform announcements, wipe timing and game interfaces may change. Consult the original sources directly for updates.",
+          "Official ROB RUN Steam listing: https://store.steampowered.com/app/4262460/ . Kefir game help center: https://kefirgames.helpshift.com/hc/en/14-rob-run/ . Steam announcements: https://steamcommunity.com/app/4262460/allnews/ .",
+          "This is a fan-made guide, not an official service-status dashboard or an affiliated game download. Do not provide game credentials, personal information or payment details to unofficial links."
+        ]
+      },
+      {
+        "id": "related-guides",
+        "heading": "Related ROB RUN guides",
+        "links": [
+          {
+            "label": "Server Status",
+            "slug": "server-status",
+            "description": "Read the dedicated ROB RUN guide."
+          },
+          {
+            "label": "Change Server",
+            "slug": "change-server",
+            "description": "Read the dedicated ROB RUN guide."
+          },
+          {
+            "label": "Wipe Rules",
+            "slug": "wipe",
+            "description": "Read the dedicated ROB RUN guide."
+          }
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "Is ROB RUN on Xbox Series X or S?",
+        "answer": "No officially announced release in verified sources as of the check."
+      },
+      {
+        "question": "Can I play ROB RUN on PS5?",
+        "answer": "Not through an officially listed PS5 version."
+      },
+      {
+        "question": "Is ROB RUN on Steam Deck?",
+        "answer": "Compatibility not verified / listed unknown on Steam."
+      },
+      {
+        "question": "Will there be console crossplay?",
+        "answer": "No announced console version, so crossplay plans are unknown."
+      }
+    ],
+    "screenshots": [],
+    "relatedSlugs": [
+      "server-status",
+      "change-server",
+      "wipe"
+    ],
+    "lastReviewed": "2026-11-11"
+  },
+  {
+    "enabled": true,
+    "slug": "bank-account",
+    "pageType": "guide",
+    "navLabel": "Bank Account",
+    "title": "How to Open a Bank Account in ROB RUN: Steps & Cash",
+    "description": "Learn how to open a ROB RUN bank account as a civilian, use the Laundering Desk to deposit dirty cash and withdraw funds from an ATM, with official sources.",
+    "navVisible": true,
+    "hero": {
+      "eyebrow": "ROB RUN practical guide · Reviewed Nov 11, 2026",
+      "heading": "How to Open a Bank Account in ROB RUN",
+      "lead": "According to Kefir: visit Looty Bay Bank as a Civilian to open an account. To put dirty cash into your bank funds, use the Laundering Desk at your base and allow processing time. You can withdraw from an ATM; banked money remains protected from theft only until the next wipe."
+    },
+    "sections": [
+      {
+        "id": "how-to-open-a-bank-account-in-rob-run",
+        "heading": "How to Open a Bank Account in ROB RUN",
+        "intro": "Kefir’s ROB RUN help documentation describes opening an account as a civilian at Looty Bay Bank. Make sure you are following the in-game bank system rather than a real-world financial website. This page only explains game mechanics; it does not ask for any payment card, personal identity or external bank account.",
+        "subsections": [
+          {
+            "heading": "Opening an account",
+            "paragraphs": [
+              "Kefir’s banking guidance places account opening at the bank in Looty Bay. Go to the bank and follow the available in-game account-opening interaction rather than expecting an account to appear automatically.",
+              "Use the current banking interface and any displayed requirements as the final authority. Do not assume every character can complete the same action regardless of role or current state."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "how-to-deposit-money-in-rob-run",
+        "heading": "How to Deposit Money in ROB RUN",
+        "intro": "Follow the game’s civilian banking flow at Looty Bay Bank as described in the official guide. If your game shows a different prerequisite or menu name after an update, treat the live client and latest Kefir documentation as the source of truth. We intentionally avoid inventing a fee, minimum balance, exact dialogue line or on-screen button that the primary source does not verify.",
+        "subsections": [
+          {
+            "heading": "Depositing is not laundering",
+            "paragraphs": [
+              "Distinguish a normal bank deposit from turning illicit cash into spendable funds. The official help materials describe the bank and a Laundering Desk as separate interactions.",
+              "If money is not accepted by a bank interaction, check the type of currency and the current prompt. Do not claim a fixed exchange rate or processing fee without a verified current source."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "how-to-withdraw-cash-at-an-atm",
+        "heading": "How to Withdraw Cash at an ATM",
+        "intro": "ROB RUN distinguishes carried or illegal cash from banked money. The official guide explains using a Laundering Desk in your base for the relevant cash-processing step and using ATMs for withdrawals. Bank account opening, laundering, depositing and withdrawing are related tasks but not identical actions; confirm your money’s current category before attempting the wrong interaction.",
+        "subsections": [
+          {
+            "heading": "Withdrawing at an ATM",
+            "paragraphs": [
+              "ATMs serve a different purpose from opening the account or processing cash. Verify the current location and available withdrawal action in the game interface.",
+              "Before assuming funds disappeared, check whether you are viewing the right balance and whether the transaction completed. Screens may change in Early Access."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "is-money-safe-in-the-bank",
+        "heading": "Is Money Safe in the Bank?",
+        "intro": "Laundering is an in-game mechanic for processing cash before it can be used through the banking system as described by Kefir. The procedure should not be mistaken for real-life financial advice. Avoid unofficial claims of a fixed laundering speed or exchange rate, because these can be changed by patches and are not confirmed by the source used here.",
+        "subsections": [
+          {
+            "heading": "Do not promise wipe immunity",
+            "paragraphs": [
+              "An amount shown in a bank UI is not evidence that it persists through every Federal Raid. Consult the published wipe rules and in-game confirmation before relying on bank storage as a safeguard.",
+              "Avoid making unsupported claims that banked, clean or dirty money always survives. See the wipe guide for the state-specific reset question."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "bank-account-vs-dirty-cash-vs-laundered-money",
+        "heading": "Bank Account vs Dirty Cash vs Laundered Money",
+        "intro": "Opening a bank account does not automatically prove that every stored balance is protected from the Federal Raid wipe. Check the wipe rules for the current state before you assume cash will survive. For the seven-day cycle and the difference between state progress and account features, read the wipe guide linked below.",
+        "subsections": [
+          {
+            "heading": "Three separate money concepts",
+            "paragraphs": [
+              "An account, clean bank balance and cash awaiting processing are not synonyms. Read the labels shown in the bank and Laundering Desk rather than assuming one action moves every money category.",
+              "Record the balance before and after a transaction if you are troubleshooting, but do not disclose private account details in a public bug report."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "common-banking-problems",
+        "heading": "Common Banking Problems",
+        "intro": "This guide is a dated summary of the verified primary sources. Confirm all changing game rules against official help and announcements before acting. Specific destinations, times and mechanics can be different after game updates; we do not present an unverified claim as established fact.",
+        "subsections": [
+          {
+            "heading": "When the bank interaction fails",
+            "paragraphs": [
+              "Check that you are at the correct place, have selected the intended interaction and have enough of the relevant funds. Read any restriction shown by the game.",
+              "If a button is unavailable, capture the exact prompt and your game version for support. Avoid proposing fake shortcuts, guaranteed workarounds or unverified deposit limits."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "critical-checks",
+        "heading": "The three banking tasks are different",
+        "paragraphs": [
+          "First establish that the account is opened at Looty Bay Bank while playing the required civilian role. Next identify whether your cash needs the base Laundering Desk process described by Kefir. Finally, when you need available banked funds in the world, use an ATM as instructed in the official help. Treat each task separately; doing one does not prove the other two have happened automatically."
+        ]
+      },
+      {
+        "id": "what-to-verify",
+        "heading": "Problems to double-check",
+        "paragraphs": [
+          "If opening an account fails, verify your current role and whether you are at the correct bank in the current client. If money does not appear where expected, check whether it is held cash, waiting for an in-game process or already banked. Do not enter payment details into any external page claiming to repair a ROB RUN bank account. This is an in-game fictional economy, not a real financial institution."
+        ]
+      },
+      {
+        "id": "quick-reference",
+        "heading": "Quick reference and decisions",
+        "intro": "These are practical starting points, not a live telemetry feed. Review original sources and in-game warnings before taking irreversible actions.",
+        "table": {
+          "caption": "ROB RUN: quick reference for bank account",
+          "columns": [
+            "Situation",
+            "Best next action",
+            "Important limit"
+          ],
+          "rows": [
+            [
+              "Open account",
+              "Visit Looty Bay Bank as civilian",
+              "Verify current client prompts"
+            ],
+            [
+              "Process eligible cash",
+              "Use base Laundering Desk",
+              "Rates and times may change"
+            ],
+            [
+              "Withdraw money",
+              "Use an ATM as guided",
+              "Follow current in-game rules"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "official-sources",
+        "heading": "Official sources and review date",
+        "paragraphs": [
+          "Reviewed on November 11, 2026. This independent guide summarizes official sources at the time of writing. Server status, platform announcements, wipe timing and game interfaces may change. Consult the original sources directly for updates.",
+          "Official ROB RUN Steam listing: https://store.steampowered.com/app/4262460/ . Kefir game help center: https://kefirgames.helpshift.com/hc/en/14-rob-run/ . Steam announcements: https://steamcommunity.com/app/4262460/allnews/ .",
+          "This is a fan-made guide, not an official service-status dashboard or an affiliated game download. Do not provide game credentials, personal information or payment details to unofficial links."
+        ]
+      },
+      {
+        "id": "related-guides",
+        "heading": "Related ROB RUN guides",
+        "links": [
+          {
+            "label": "Server Status",
+            "slug": "server-status",
+            "description": "Read the dedicated ROB RUN guide."
+          },
+          {
+            "label": "Change Server",
+            "slug": "change-server",
+            "description": "Read the dedicated ROB RUN guide."
+          },
+          {
+            "label": "Wipe Rules",
+            "slug": "wipe",
+            "description": "Read the dedicated ROB RUN guide."
+          }
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "Can I open a bank account as a criminal?",
+        "answer": "Kefir specifies visiting as a Civilian."
+      },
+      {
+        "question": "How do I deposit dirty cash?",
+        "answer": "Use the Laundering Desk at your base; processing is not instantaneous."
+      },
+      {
+        "question": "Where can I withdraw money?",
+        "answer": "Kefir confirms any ATM."
+      },
+      {
+        "question": "Does banked money survive a wipe?",
+        "answer": "No, the official wipe rule removes cash."
+      }
+    ],
+    "screenshots": [],
+    "relatedSlugs": [
+      "server-status",
+      "change-server",
+      "wipe"
+    ],
+    "lastReviewed": "2026-11-11"
+  }
+]

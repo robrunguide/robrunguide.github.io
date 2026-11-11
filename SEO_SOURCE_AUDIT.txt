@@ -1,0 +1,45 @@
+ROB RUN SOURCE-LEVEL SEO AUDIT (NOT final rendered HTML)
+Date 2026-11-11; build/browser/CSS runtime remain UNVERIFIED
+Method: English tokens from page hero, sections, FAQ; excludes global header/footer and reusable widgets.
+
+/ | 1447 words | 9041 characters (source estimate)
+  Title (58): ROB RUN Guide & Wiki: Server Status, Wipes and How to Play
+  Description (148): ROB RUN game guide for Steam PC: official download, server status, switching servers, wipe rules, PS5 and Xbox availability, and bank account steps.
+  H1: ROB RUN Guide & Wiki
+  Phrase: rob run | source main-text occurrences 29
+  H2 sections: 9 | FAQ: 5
+
+server-status | 1225 words | 7980 characters (source estimate)
+  Title (56): ROB RUN Server Status: Outages & Waiting for Status Info
+  Description (157): Check ROB RUN server announcements, recent connection issues and what to try when stuck on “waiting for status information.” Sources and timestamps included.
+  H1: ROB RUN Server Status & Connection Problems
+  Phrase: rob run server status | source main-text occurrences 3
+  H2 sections: 11 | FAQ: 4
+
+change-server | 1192 words | 7453 characters (source estimate)
+  Title (48): How to Change Server in ROB RUN and Join Friends
+  Description (157): Change servers in ROB RUN using the official Prison and Surrender to Feds route. Follow the steps, resend your invite and review what to check before moving.
+  H1: How to Change Server in ROB RUN
+  Phrase: how to change server in rob run | source main-text occurrences 2
+  H2 sections: 11 | FAQ: 4
+
+wipe | 1103 words | 7036 characters (source estimate)
+  Title (50): ROB RUN Wipe Schedule: 7-Day Federal Raid & Resets
+  Description (160): ROB RUN wipes follow a seven-day Federal Raid cycle. See what is reset, what carries over and how to check your own server’s next reset without fake countdowns.
+  H1: ROB RUN Wipe Schedule and Reset Rules
+  Phrase: rob run wipe | source main-text occurrences 3
+  H2 sections: 11 | FAQ: 4
+
+console | 1076 words | 6868 characters (source estimate)
+  Title (47): Is ROB RUN on PS5 or Xbox? Console & PC Support
+  Description (152): Is ROB RUN on PS5 or Xbox? Check the verified Steam platform listing, current Windows PC availability and whether Kefir has announced a console release.
+  H1: Is ROB RUN on Console, PS5 or Xbox?
+  Phrase: is rob run on console | source main-text occurrences 1
+  H2 sections: 11 | FAQ: 4
+
+bank-account | 1149 words | 7162 characters (source estimate)
+  Title (51): How to Open a Bank Account in ROB RUN: Steps & Cash
+  Description (156): Learn how to open a ROB RUN bank account as a civilian, use the Laundering Desk to deposit dirty cash and withdraw funds from an ATM, with official sources.
+  H1: How to Open a Bank Account in ROB RUN
+  Phrase: how to open a bank account in rob run | source main-text occurrences 2
+  H2 sections: 11 | FAQ: 4
