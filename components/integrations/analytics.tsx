@@ -1,23 +1,40 @@
-/** Google Tag Manager container (GTM-NQG8Q432).
- * The user-provided GTM snippet contained a gtag() stub but not the
- * standard GTM dataLayer bootstrap; load the container once using the
- * canonical GTM bootstrap. GA4 measurement must be configured and
- * published within this GTM container separately.
- */
-const containerId = "GTM-NQG8Q432";
+import { integrations } from "@/config/integrations";
+
+const containerId = "GTM-TJDBTK59";
 
 export function Analytics() {
+  const measurementId = integrations.analytics.provider === "google-analytics"
+    ? integrations.analytics.measurementId
+    : null;
+
   return (
     <>
+      {measurementId && <script async src={`https://www.googletagmanager.com/gtag/js?id=${measurementId}`} />}
       <script
         dangerouslySetInnerHTML={{
           __html: `
             window.dataLayer = window.dataLayer || [];
-            window.dataLayer.push({'gtm.start': new Date().getTime(), event: 'gtm.js'});
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            ${measurementId ? `gtag('config', '${measurementId}');` : ""}
           `,
         }}
       />
-      <script async src={`https://www.googletagmanager.com/gtm.js?id=${containerId}`} />
+      {/* eslint-disable-next-line @next/next/next-script-for-ga -- Queue the GTM startup event before loading the container. */}
+      <script
+        dangerouslySetInnerHTML={{
+          __html: `
+            window.dataLayer.push({'gtm.start': new Date().getTime(), event: 'gtm.js'});
+
+            (() => {
+              const script = document.createElement('script');
+              script.async = true;
+              script.src = 'https://www.googletagmanager.com/gtm.js?id=${containerId}';
+              document.head.appendChild(script);
+            })();
+          `,
+        }}
+      />
     </>
   );
 }
