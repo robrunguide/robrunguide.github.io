@@ -33,6 +33,31 @@ jobs:
         run: node scripts/repo-rules.mjs ci "$BEFORE" "$GITHUB_SHA"
         env:
           BEFORE: ${{ github.event.before }}
+      # GitHub Pages must be enabled once in Settings > Pages > Source: GitHub Actions.
+      # GITHUB_TOKEN cannot bootstrap a missing Pages site via configure-pages enablement.
+      - name: Verify Pages settings (actionable first-deploy error)
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          status=$(curl -sS -o /tmp/pages-site.json -w '%{http_code}' \
+            -H "Authorization: Bearer $GH_TOKEN" \
+            -H "Accept: application/vnd.github+json" \
+            -H "X-GitHub-Api-Version: 2022-11-28" \
+            "https://api.github.com/repos/${GITHUB_REPOSITORY}/pages")
+          if [ "$status" != "200" ]; then
+            echo "::error title=GitHub Pages needs one-time setup::Pages API returned HTTP $status. Open https://github.com/${GITHUB_REPOSITORY}/settings/pages and set Build and deployment > Source = GitHub Actions, then re-run this workflow."
+            echo "### GitHub Pages setup required" >> "$GITHUB_STEP_SUMMARY"
+            echo "Open https://github.com/${GITHUB_REPOSITORY}/settings/pages and choose **Build and deployment > Source: GitHub Actions**. Then re-run this workflow. Pages API HTTP: $status." >> "$GITHUB_STEP_SUMMARY"
+            exit 1
+          fi
+          build_type=$(jq -r '.build_type // empty' /tmp/pages-site.json)
+          if [ "$build_type" != "workflow" ]; then
+            echo "::error title=GitHub Pages source is incorrect::Current build_type=$build_type. Open https://github.com/${GITHUB_REPOSITORY}/settings/pages and change Source to GitHub Actions."
+            exit 1
+          fi
+          echo "Pages is enabled for GitHub Actions."
       - uses: actions/setup-node@v4
         with:
           node-version: 22
