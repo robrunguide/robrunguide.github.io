@@ -81,6 +81,12 @@
               "Do not convert the absence of a new notice into a guarantee that all states are healthy. Check the current announcement stream and in-game notices before drawing a conclusion."
             ]
           }
+        ],
+        "inlineLinks": [
+          {
+            "label": "developer announcements",
+            "slug": "patch-notes"
+          }
         ]
       },
       {
@@ -266,6 +272,12 @@
               "The server selector shown at your current build is the source of truth. Regional choices and capacity may change with patches."
             ]
           }
+        ],
+        "inlineLinks": [
+          {
+            "label": "selecting an EU or East US region",
+            "slug": "region-switch"
+          }
         ]
       },
       {
@@ -423,6 +435,12 @@
               "Distinguish the normal progression reset from maintenance, a disconnection, a new state launch, or a planned server opening."
             ]
           }
+        ],
+        "inlineLinks": [
+          {
+            "label": "Federal Raid",
+            "slug": "federal-raid"
+          }
         ]
       },
       {
@@ -464,6 +482,12 @@
               "The wipe is a game-world progression event, not the same as surrendering to switch a server. Do not confuse the two Prison-related concepts.",
               "Read current notices for how cash, authority and jail time are handled. In particular, avoid broad guarantees that a bank action protects progress from Federal Raid effects."
             ]
+          }
+        ],
+        "inlineLinks": [
+          {
+            "label": "jail time",
+            "slug": "jail-time"
           }
         ]
       },
@@ -993,5 +1017,797 @@
       "wipe"
     ],
     "lastReviewed": "2026-11-11"
+  },
+  {
+    "enabled": true,
+    "slug": "patch-notes",
+    "pageType": "updates",
+    "navLabel": "Patch Notes",
+    "title": "ROB RUN Patch Notes & Latest Updates (November 2026)",
+    "description": "Read the November 17 ROB RUN patch notes for Jail Time limits, cross-region Battle Pass points, Shipments and voice chat. See the Steam update timeline.",
+    "hero": {
+      "heading": "ROB RUN Patch Notes and Updates",
+      "lead": "Kefir’s November 17, 2026 update added daily and overall Jail Time limits, made Battle Pass points carry over when you change regions, and improved connection stability. It also added Shipments to Lenny’s menu and temporarily took Eviction Rights out of barter.",
+      "source": {
+        "label": "Kefir’s November 17 patch notes on Steam",
+        "url": "https://store.steampowered.com/news/app/4262460/view/717921532895037154"
+      }
+    },
+    "sections": [
+      {
+        "id": "november-17-changes",
+        "heading": "Latest ROB RUN patch notes for November 17",
+        "table": {
+          "caption": "November 17 patch at a glance",
+          "columns": [
+            "Area",
+            "Change and what to check"
+          ],
+          "rows": [
+            [
+              "Progression",
+              "Jail Time has new daily and overall limits. If you are working toward a Shipments unlock, check the item’s requirement and your current total."
+            ],
+            [
+              "Region transfer",
+              "Kefir says Battle Pass points carry over when you change regions. Compare your point total before and after a move."
+            ],
+            [
+              "Voice chat",
+              "Voice access in Prison and at Lenny’s Motel now depends on land ownership and accumulated Jail Time. Consider those conditions if voice works elsewhere."
+            ],
+            [
+              "Shipments and barter",
+              "You can open Shipments from Lenny’s context menu. Eviction Rights were temporarily removed from barter."
+            ],
+            [
+              "Controls and reporting",
+              "Mouse settings now support an inverted Y-axis. The death-screen Report button is easier to spot, and character names have a profanity filter."
+            ],
+            [
+              "Connections",
+              "Kefir reports stability improvements. For current connection problems, check the latest notice for your region."
+            ]
+          ]
+        }
+      },
+      {
+        "id": "player-impact",
+        "heading": "How the November patch affects your next session",
+        "subsections": [
+          {
+            "heading": "Jail Time, Shipments and Battle Pass points",
+            "paragraphs": [
+              "If you were accumulating years to unlock a specific Shipment, check the requirement for that item in the Shipments tab. The progress total and the item's unlock requirement answer different questions. Kefir announced daily and overall limits, while the exact values and reset hour remain unpublished. The Jail Time limits guide covers what to record if your total has stopped moving.",
+              "For players changing regions, the patch explicitly names Battle Pass points. Compare the same pass on the same Steam account before and after the change. If you are researching the move because a friend sent an invite, first check whether you need a different region or just their state. The region switching guide walks through both decisions."
+            ]
+          },
+          {
+            "heading": "Lenny’s menu, barter and voice chat",
+            "paragraphs": [
+              "Use Lenny’s context menu to reach Shipments. The menu entry helps you check unlock requirements where you interact with Lenny. For players looking at an older barter guide, the November notes describe Eviction Rights as temporarily removed from barter. The announcement gives no return date.",
+              "The voice restriction applies in Prison and at Lenny’s Motel. If a friend can hear you elsewhere, check whether the problem is limited to these locations and whether the affected player has a land plot and accumulated Jail Time. That information is more useful than repeatedly changing audio devices when only these locations are affected."
+            ]
+          }
+        ],
+        "inlineLinks": [
+          {
+            "label": "Jail Time limits guide",
+            "slug": "jail-time"
+          },
+          {
+            "label": "region switching guide",
+            "slug": "region-switch"
+          }
+        ]
+      },
+      {
+        "id": "november-timeline",
+        "heading": "November 2026 update timeline",
+        "table": {
+          "caption": "Selected official Steam announcements, newest first",
+          "columns": [
+            "Date and type",
+            "What Kefir announced"
+          ],
+          "rows": [
+            [
+              "Nov 17 · Patch",
+              "Jail Time limits, cross-region Battle Pass points, voice access, UI and connection changes."
+            ],
+            [
+              "Nov 14 · Service notice",
+              "Kefir reported EU login and stability problems and later announced an upcoming restart."
+            ],
+            [
+              "Nov 13 · Developer Q&A",
+              "Kefir discussed simpler server selection and a weapon repair feature as future work."
+            ],
+            [
+              "Nov 4 · Launch changes",
+              "Tier 1 land rentals moved to a document cost. Police respawn delays increased, and patrol gear begins with pistols on fresh servers."
+            ]
+          ]
+        },
+        "sources": [
+          {
+            "label": "November 14: EU server notice",
+            "url": "https://store.steampowered.com/news/app/4262460/view/717921532895036325"
+          },
+          {
+            "label": "November 13: Developer Q&A",
+            "url": "https://store.steampowered.com/news/app/4262460/view/717921532895036113"
+          },
+          {
+            "label": "November 4: First Changes & Server Schedule",
+            "url": "https://store.steampowered.com/news/app/4262460/view/712291399099220569"
+          }
+        ],
+        "intro": "Dates below refer to official Steam posts. Use the type column to see which posts announced shipped changes, a service incident or future work.",
+        "subsections": [
+          {
+            "heading": "November 14 and 13: service notice and developer Q&A",
+            "paragraphs": [
+              "The November 14 post concerned login trouble and instability on EU servers. Kefir said US servers were unaffected by that incident and later added a restart notice. If the symptoms sound familiar, check the date and region against any current announcement before using this post to explain today’s trouble.",
+              "The November 13 Q&A is useful when reading older guides about server selection and gear. Kefir acknowledged that the route through Prison was inconvenient and said it wanted to simplify server selection. It also described weapon repair as planned and said gear durability drops on death. Those answers describe intended work and the rules at the time of the Q&A."
+            ]
+          },
+          {
+            "heading": "November 4: what actually shipped at launch",
+            "paragraphs": [
+              "The launch-day changes made police respawn slower, with longer delays after consecutive deaths. Patrol officers started with pistols on fresh servers and received access to better gear as the server got older. The studio also lowered the basic pistol price and added starter weapon spawn points. Use those launch notes when comparing what shipped with what had been discussed during the playtest.",
+              "For the economy, the same post changed tier-one settlement and land rental costs to documents, increased base business returns and raised the value of dismantling or selling Shipments. It also made Shipments less frequent and slower to dismantle. These are the launch-day balance changes. The November 17 Shipments entry concerns how players open the menu at Lenny’s."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "check-your-client",
+        "heading": "How to check an update in Steam and in game",
+        "paragraphs": [
+          "Open ROB RUN in your Steam library and finish any pending download before comparing your client with these ROB RUN patch notes. Match the official post’s date to the change you are checking. If Steam shows a download with no matching notes, the download alone gives you no list of gameplay changes."
+        ],
+        "subsections": [
+          {
+            "heading": "Check one change at a time",
+            "paragraphs": [
+              "Choose a check that fits your next session. If you are shopping for an unlock, look for the Shipments entry in Lenny’s menu. If you had trouble reporting from the death screen, look for the more visible Report control there. If you intend to try mouse inversion, note your original preference before testing the new option so you can restore it easily."
+            ]
+          },
+          {
+            "heading": "Use the error code if you still cannot connect",
+            "paragraphs": [
+              "Kefir’s support page tells players with E-0301 or E-0302 to close the game, restart Steam and update the client. E-0201 describes a connection that dropped after play had already started. For a region-wide issue, open the ROB RUN server status guide and check dated notices before you change regions or recommend a move to your party."
+            ]
+          }
+        ],
+        "inlineLinks": [
+          {
+            "label": "ROB RUN server status guide",
+            "slug": "server-status"
+          }
+        ],
+        "sources": [
+          {
+            "label": "Kefir Help Center: ROB RUN error codes",
+            "url": "https://kefirgames.helpshift.com/hc/en/14-rob-run/faq/1377-what-should-i-do-if-i-get-an-error-code/"
+          }
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "When did the latest verified patch come out?",
+        "answer": "Kefir published the patch notes on November 17, 2026 at 11:19 UTC. Its Steam announcement said the changes were already live."
+      },
+      {
+        "question": "Did the November 17 notes publish the Jail Time caps?",
+        "answer": "Kefir announced daily and overall limits without giving numerical caps or a reset time."
+      },
+      {
+        "question": "Did the November 13 Q&A add weapon repair?",
+        "answer": "Kefir described weapon repair as a planned feature in that Q&A. The November 17 notes list no weapon repair change."
+      },
+      {
+        "question": "Where can I read original ROB RUN patch notes?",
+        "answer": "Use the dated Steam announcement linked at the top of this page. For earlier posts, use the Steam links under the timeline. The announcement date tells you when Kefir posted the note, while the source check date tells you when this guide was reviewed."
+      },
+      {
+        "question": "Did the November patch change how long a state lasts?",
+        "answer": "The November 17 announcement covers Jail Time limits, region progress, voice access, menus and connection changes. It does not announce a new state cycle length. Check the lifetime shown for your state when planning around a Federal Raid."
+      }
+    ],
+    "relatedSlugs": [
+      "jail-time",
+      "region-switch",
+      "server-status"
+    ],
+    "navVisible": true,
+    "navGroup": "guides",
+    "lastReviewed": "2026-11-17"
+  },
+  {
+    "enabled": true,
+    "slug": "jail-time",
+    "pageType": "guide",
+    "navLabel": "Jail Time",
+    "title": "ROB RUN Jail Time: Limits, Prison and Progression",
+    "description": "How Jail Time works in ROB RUN, what the daily and overall limits mean, how to check Shipments unlocks, and what carries over after a Federal Raid.",
+    "hero": {
+      "heading": "ROB RUN Jail Time Explained",
+      "lead": "Accumulated Jail Time carries forward after a Federal Raid and helps unlock some Shipments. On November 17, Kefir confirmed daily and overall Jail Time limits. The announcement gives no numerical caps, reset hour or formula.",
+      "source": {
+        "label": "Kefir’s November 17 patch notes on Steam",
+        "url": "https://store.steampowered.com/news/app/4262460/view/717921532895037154"
+      }
+    },
+    "sections": [
+      {
+        "id": "jail-time-and-prison",
+        "heading": "How Jail Time works in ROB RUN",
+        "intro": "The accumulated Jail Time value is part of long-term progression. Kefir says the Federal Raid preserves the years you already earned and converts wiped state property into Jail Time and Authority. Some Shipments use accumulated Jail Time as an unlock requirement.",
+        "table": {
+          "caption": "Jail Time rules and where they apply",
+          "columns": [
+            "Situation",
+            "What to check"
+          ],
+          "rows": [
+            [
+              "Back in Prison after a raid",
+              "Kefir says your accumulated Jail Time carries forward. A figure shown in years provides no published conversion to a real-world wait."
+            ],
+            [
+              "A locked item",
+              "Look at its Shipments requirement. Some items require accumulated Jail Time. Others require a base in a settlement of a certain level."
+            ],
+            [
+              "A gain that stops increasing",
+              "The update confirms daily and overall limits. Kefir has yet to publish the thresholds, the reset schedule or a list of which sources count toward each."
+            ]
+          ]
+        },
+        "sources": [
+          {
+            "label": "Kefir Help Center: What is the Federal Raid?",
+            "url": "https://kefirgames.helpshift.com/hc/en/14-rob-run/faq/1346-what-is-the-federal-raid-wipe/"
+          },
+          {
+            "label": "Kefir Help Center: How do I unlock new goods?",
+            "url": "https://kefirgames.helpshift.com/hc/en/14-rob-run/faq/1365-how-do-i-unlock-new-goods/"
+          },
+          {
+            "label": "Kefir Help Center: Why surrender to the cops?",
+            "url": "https://kefirgames.helpshift.com/hc/en/14-rob-run/faq/1352-why-surrender-to-the-cops/"
+          }
+        ],
+        "subsections": [
+          {
+            "heading": "Prison and your accumulated years",
+            "paragraphs": [
+              "If you end up in Prison, read the prompts for the next action available to your character. Your accumulated years are useful when checking progression and unlocks. Treat a real-world countdown as a separate question. Kefir’s public documentation gives no conversion from the number of displayed years to minutes spent in the prison area.",
+              "For example, seeing a larger Jail Time number after a server wipe is consistent with the documented conversion of state property. If the same screen also asks you to act before entering a new state, read that instruction separately. The years can carry forward even as you start over with fresh state property."
+            ]
+          },
+          {
+            "heading": "Police surrender and the Federal Raid",
+            "paragraphs": [
+              "Kefir’s police guide says that surrendering to a cop can cost the contents of your bag while letting you keep equipped gear. An accepted bribe can let you keep your loot. Those are outcomes of the immediate encounter. Use the Federal Raid mechanics guide for the separate end-of-cycle rules on cash, bases and long-term progression.",
+              "Record the event in plain language if you are tracking a change in Jail Time. A police encounter, a return to Prison during a server change and the end of a state’s cycle give support different starting points. Watching one incident tells you how that incident appeared on your client, while a repeatable progression formula would require more evidence."
+            ]
+          }
+        ],
+        "inlineLinks": [
+          {
+            "label": "Federal Raid mechanics guide",
+            "slug": "federal-raid"
+          }
+        ]
+      },
+      {
+        "id": "daily-and-overall-limits",
+        "heading": "What the daily and overall Jail Time limits mean",
+        "intro": "Kefir announced both types of limit in the November 17 update. Read the November 17 patch breakdown for the wording and use the number displayed in your current client when checking your own progress.",
+        "subsections": [
+          {
+            "heading": "If your Jail Time stops increasing",
+            "paragraphs": [
+              "Write down the displayed total and the last event you expected to affect it. Include the approximate time and the state you were playing on. If several things happened at once, such as a disconnect during a transition, record the order. This makes a useful report even when you cannot tell whether the change is intentional.",
+              "The public announcement gives no numbers for either cap and no daily reset hour. A total that has stayed still through one session cannot tell you which limit applied, or even whether you encountered a limit. A screenshot of an old total is useful evidence about that account at that moment, rather than a measurement of the live limit for every player."
+            ]
+          },
+          {
+            "heading": "Before you change plans to chase more Jail Time",
+            "paragraphs": [
+              "Check the item you want in Shipments. A requirement based on settlement level may matter more to that goal than another Jail Time gain. Where progress is a concern, compare an earlier and a current total from the same character. If you are looking at a friend’s progress or at pre-patch footage, keep those numbers separate.",
+              "After a wipe, track your existing Jail Time and the Authority the client displays as separate values. The official wipe FAQ establishes carryover for accumulated Jail Time and describes the conversion into both types of progression. It does not publish a separate schedule of gains by asset or say how the new limits apply to each case."
+            ]
+          }
+        ],
+        "inlineLinks": [
+          {
+            "label": "November 17 patch breakdown",
+            "slug": "patch-notes"
+          }
+        ]
+      },
+      {
+        "id": "check-your-progress",
+        "heading": "Check Shipments unlocks and report missing progress",
+        "subsections": [
+          {
+            "heading": "Read the requirement on the specific item",
+            "paragraphs": [
+              "Press H or open Shipments from the side menu in the desert, at Lenny’s Motel or in Looty Bay. The November 17 patch also added access through Lenny’s context menu. Inspect the item before you spend resources on a plot or plan a session around a progression goal.",
+              "Compare the requirement against the progress it actually names. For a settlement requirement, check where your base is and the settlement’s level. For an accumulated Jail Time requirement, compare the threshold to your displayed total. Checking the specific item also gives you a concrete way to tell whether an apparent problem is limited to one unlock."
+            ]
+          },
+          {
+            "heading": "Send a useful report if the total looks wrong",
+            "paragraphs": [
+              "If previously earned progress is missing, check for a wipe and verify the Steam account. Press Esc and copy the UID under your character name. To the details Kefir asks for, add your before and after totals, the state, the event that preceded the change and the unlock you were checking.",
+              "If you only noticed the issue while browsing a Shipment, include the exact item name and what its requirement showed. If you saw it after switching or after a raid, include the old and new state when you can. That lets support distinguish an item requirement from an unexpected progression change."
+            ]
+          }
+        ],
+        "sources": [
+          {
+            "label": "Kefir Help Center: I lost my progress",
+            "url": "https://kefirgames.helpshift.com/hc/en/14-rob-run/faq/1371-i-lost-my-progress-what-should-i-do/"
+          },
+          {
+            "label": "Kefir Help Center: Where to find your UID",
+            "url": "https://kefirgames.helpshift.com/hc/en/14-rob-run/faq/1372-where-can-i-find-my-id/"
+          }
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "What is the daily Jail Time limit in ROB RUN?",
+        "answer": "The November 17 notes confirm a daily limit and an overall limit. Kefir did not publish either number or a daily reset hour in that announcement."
+      },
+      {
+        "question": "Does a Federal Raid erase my accumulated Jail Time?",
+        "answer": "Kefir lists previously accumulated Jail Time among the progress that carries over. The same help article says wiped server property is converted into Jail Time and Authority."
+      },
+      {
+        "question": "Can I tell when I will leave Prison from the number of years?",
+        "answer": "Kefir’s public rules do not give a conversion from the displayed years to minutes or hours. Use the instructions shown in Prison to see your next action."
+      },
+      {
+        "question": "Does every Shipment unlock when I gain Jail Time?",
+        "answer": "Check each item’s entry in Shipments. Kefir documents some unlocks based on accumulated Jail Time and others based on having a base in a settlement of a particular level. Meeting one kind of requirement does not establish that you meet the other."
+      },
+      {
+        "question": "Where do I check the latest change to Jail Time?",
+        "answer": "Start with Kefir’s November 17 Steam notes for the introduction of both limits. Use the client for your character’s current total and item requirements. Older progression videos may use rules that were recorded before the limits were announced."
+      }
+    ],
+    "relatedSlugs": [
+      "federal-raid",
+      "patch-notes"
+    ],
+    "navVisible": true,
+    "navGroup": "guides",
+    "lastReviewed": "2026-11-17"
+  },
+  {
+    "enabled": true,
+    "slug": "federal-raid",
+    "pageType": "guide",
+    "navLabel": "Federal Raid",
+    "title": "ROB RUN Federal Raid: What You Lose and Keep",
+    "description": "See what a ROB RUN Federal Raid takes, what you keep, how cash becomes Jail Time and Authority, and what to check before and after a state reset.",
+    "hero": {
+      "heading": "ROB RUN Federal Raid Guide",
+      "lead": "A Federal Raid resets property on a state that has reached the end of its cycle. Kefir says the game takes plots, bases, weapons and cash and converts wiped progress into Jail Time and Authority. Your existing Jail Time, cosmetics, name, tutorial progress and settings carry forward.",
+      "source": {
+        "label": "Kefir Help Center: What is the Federal Raid?",
+        "url": "https://kefirgames.helpshift.com/hc/en/14-rob-run/faq/1346-what-is-the-federal-raid-wipe/"
+      }
+    },
+    "sections": [
+      {
+        "id": "property-and-progress",
+        "heading": "What you lose and keep in a ROB RUN Federal Raid",
+        "intro": "The raid applies to the state whose cycle has ended. Before it happens, take stock of your state property and record the progress Kefir lists as persistent.",
+        "table": {
+          "caption": "How to account for assets after a Federal Raid",
+          "columns": [
+            "What you are checking",
+            "Expected outcome"
+          ],
+          "rows": [
+            [
+              "Plots and bases",
+              "Reset with the state. Plan on securing land again for your next build."
+            ],
+            [
+              "Weapons",
+              "Reset with state property. A weapon’s condition or where you last used it does not change the published wipe rule."
+            ],
+            [
+              "Cash and bank balance",
+              "The reset includes cash. Banking protects funds against theft during the current cycle, and that protection ends at the wipe."
+            ],
+            [
+              "Accumulated Jail Time",
+              "Carries forward. The raid converts wiped property into Jail Time and Authority. Kefir’s public guidance gives no item-by-item conversion rate."
+            ],
+            [
+              "Cosmetics and identity",
+              "Cosmetics and your player name carry forward. Kefir also lists tutorial progress and settings as persistent."
+            ]
+          ]
+        },
+        "sources": [
+          {
+            "label": "Kefir Help Center: Can my money be stolen?",
+            "url": "https://kefirgames.helpshift.com/hc/en/14-rob-run/faq/1356-can-my-money-be-stolen/"
+          }
+        ]
+      },
+      {
+        "id": "read-the-raid-rules",
+        "heading": "How to read the asset and progression rules",
+        "subsections": [
+          {
+            "heading": "Treat banked money as part of the current state",
+            "paragraphs": [
+              "Money in the bank has value while you are still playing the current cycle. If you plan to use it for a base project or another purchase, compare the time left in the state with the time you need to get use out of that purchase. Moving cash out of a bag for safekeeping addresses the risk of theft before the raid.",
+              "Kefir’s wipe FAQ says cash resets. Its banking guidance says protection lasts until the next wipe. Keep a record of your closing balance if you want to understand what happened later. The balance alone will not let you calculate how many years or how much Authority should appear."
+            ]
+          },
+          {
+            "heading": "Check progression and ownership separately",
+            "paragraphs": [
+              "Kefir identifies cosmetics, player name, tutorial progress, settings and accumulated Jail Time as carryover. A plot or building belongs in the state-property column of your checklist. If you return with the same character and see a missing building, look up the state and its lifetime before treating that loss as a missing account unlock.",
+              "The point of checking Jail Time and Authority separately is to compare what the game actually shows for each. The help article identifies both as results of the conversion and explicitly lists accumulated Jail Time among the carryover items. For how those years relate to item unlocks, see the Jail Time progression guide."
+            ]
+          }
+        ],
+        "inlineLinks": [
+          {
+            "label": "Jail Time progression guide",
+            "slug": "jail-time"
+          }
+        ]
+      },
+      {
+        "id": "before-and-after",
+        "heading": "Before and after a Federal Raid",
+        "subsections": [
+          {
+            "heading": "Before the reset: record the state and pick an achievable goal",
+            "paragraphs": [
+              "Write down your state ID and take a screenshot of the accumulated Jail Time you can see. If the state is near the end of its cycle, decide whether you can finish the activity before the reset. For example, a crew may be able to use a stockpile for one last session even when a new base project would make little sense.",
+              "If timing is the reason for your visit, use the state-specific wipe schedule and confirm the lifetime in your game. Compare the exact state ID before coordinating with friends. People in the same region can be on different states with different amounts of time left."
+            ]
+          },
+          {
+            "heading": "After the reset: identify expected losses and missing progress",
+            "paragraphs": [
+              "Confirm the Steam account and check whether the old state reached its wipe. Use the property table above to sort the missing items. A missing plot and weapons fit the reset rule. A cosmetic you already owned belongs on the list of things to check against the account and the carryover guidance.",
+              "If you find an unexpected loss, capture what was missing, your player name and the approximate time. Open Esc and copy the UID shown under the name. Tell support what documentation says should have carried over, and attach a before screenshot if you have one. A report about a specific missing cosmetic or Jail Time total gives support a clearer starting point."
+            ]
+          }
+        ],
+        "sources": [
+          {
+            "label": "Kefir Help Center: I lost my progress",
+            "url": "https://kefirgames.helpshift.com/hc/en/14-rob-run/faq/1371-i-lost-my-progress-what-should-i-do/"
+          },
+          {
+            "label": "Kefir Help Center: Where to find your UID",
+            "url": "https://kefirgames.helpshift.com/hc/en/14-rob-run/faq/1372-where-can-i-find-my-id/"
+          }
+        ],
+        "inlineLinks": [
+          {
+            "label": "state-specific wipe schedule",
+            "slug": "wipe"
+          }
+        ]
+      },
+      {
+        "id": "raid-or-state-move",
+        "heading": "Tell a Federal Raid apart from other losses",
+        "paragraphs": [
+          "A missing item can follow several different events. Check what happened just before you saw the loss: the state ended, you were raided by players, you picked a fresh state, or you confirmed a move to another server. These cases have different rules, so identify the event before applying the wipe table."
+        ],
+        "sources": [
+          {
+            "label": "Kefir Help Center: How player base raids work",
+            "url": "https://kefirgames.helpshift.com/hc/en/14-rob-run/faq/1364-how-do-i-raid-other-players-bases/"
+          }
+        ],
+        "table": {
+          "caption": "Which event explains what you saw?",
+          "columns": [
+            "Event",
+            "What to check first"
+          ],
+          "rows": [
+            [
+              "Federal Raid",
+              "Did your old state reach the end of its cycle? Compare wiped state property and the progress Kefir lists as persistent."
+            ],
+            [
+              "Player base raid",
+              "Check the particular building and its Security System. Kefir says rivals can use a decoder to obtain temporary access."
+            ],
+            [
+              "New state opening",
+              "Check the state ID on the opening notice. An opening refers to a new world on the list."
+            ],
+            [
+              "Voluntary server move",
+              "Review the destination and any surrender or state-change warning you confirmed."
+            ],
+            [
+              "Disconnect or restart",
+              "Find the exact error or service notice and compare it with your old state’s lifetime."
+            ]
+          ]
+        },
+        "subsections": [
+          {
+            "heading": "If only your base was hit",
+            "paragraphs": [
+              "A player raid has a target building. Kefir says the owner can repair the Security System and shut the intruder out. That is a useful check when your state is still active and the problem concerns one building. The Federal Raid rules apply when the state’s cycle ends."
+            ]
+          },
+          {
+            "heading": "If you moved to join a friend",
+            "paragraphs": [
+              "Compare your old and new state IDs, then consider the warning shown when you moved. The party invite and server-change guide covers the choice of destination and when to resend the invite. Return to the raid carryover list when the old state actually reached its reset."
+            ]
+          }
+        ],
+        "inlineLinks": [
+          {
+            "label": "party invite and server-change guide",
+            "slug": "change-server"
+          }
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "Does banking cash protect it from the Federal Raid?",
+        "answer": "Banking protects cash from other players stealing it during the cycle. Kefir says cash is wiped by the Federal Raid and describes the bank’s protection as lasting until the next wipe."
+      },
+      {
+        "question": "Why do I have more Jail Time after the raid?",
+        "answer": "Kefir says wiped world progress is converted into Jail Time and Authority. Any Jail Time already accumulated is listed separately as progress that carries forward."
+      },
+      {
+        "question": "Is this the same as another player raiding my base?",
+        "answer": "A Federal Raid resets the state at the end of its cycle. In a player raid, rivals target a particular base and can use a decoder on that building’s security system."
+      },
+      {
+        "question": "Do I have to rebuild my base after the Federal Raid?",
+        "answer": "Yes. The wipe resets plots and bases. Plan to secure land again in the state where you start your next run. Keep a record of long-term progress separately from your building or equipment list."
+      },
+      {
+        "question": "Do the wipe rules guarantee Battle Pass progress when I change regions?",
+        "answer": "The Federal Raid FAQ describes the state reset. Kefir addressed region transfers in the November 17 patch notes and explicitly said Battle Pass points carry over when you switch regions."
+      }
+    ],
+    "relatedSlugs": [
+      "wipe",
+      "jail-time",
+      "change-server"
+    ],
+    "navVisible": true,
+    "navGroup": "guides",
+    "lastReviewed": "2026-11-17"
+  },
+  {
+    "enabled": true,
+    "slug": "region-switch",
+    "pageType": "guide",
+    "navLabel": "Change Region",
+    "title": "ROB RUN Change Region: Transfer & Battle Pass Progress",
+    "description": "How to change region in ROB RUN from Prison, compare EU and East US ping, keep track of Battle Pass points, and distinguish a region from a friend's state.",
+    "hero": {
+      "heading": "How to Change Region in ROB RUN",
+      "lead": "From Prison, open Settings, then Other, and use the Region row to open the selector. A region is a group of servers such as EU or East US, and a state is one server within that group. Kefir’s November 17 update says your Battle Pass points carry over when switching regions.",
+      "source": {
+        "label": "Kefir’s November 17 patch notes on Steam",
+        "url": "https://store.steampowered.com/news/app/4262460/view/717921532895037154"
+      }
+    },
+    "sections": [
+      {
+        "id": "find-region-selector",
+        "heading": "How to change region from Prison",
+        "intro": "Use the ROB RUN Change Region dialog to move between geographic server groups. The November PC client displayed Europe and North America as the two options. Kefir’s server schedule describes those groups as EU and East US.",
+        "steps": [
+          {
+            "heading": "Open Other in Settings",
+            "description": "Once you are in Prison, press Esc to open Settings. Look in the Other tab for the Region row and its current value."
+          },
+          {
+            "heading": "Open Change Region",
+            "description": "Choose Go beside Region. Compare the listed destinations and their ping. Ask for your friend’s region first if the purpose is to play together."
+          },
+          {
+            "heading": "Review and confirm",
+            "description": "Select the intended region and read the game’s confirmation. After the change, check your selected region and then look for the intended state."
+          }
+        ]
+      },
+      {
+        "id": "region-vs-state",
+        "heading": "Region transfer or server change?",
+        "table": {
+          "caption": "Which choice solves your problem?",
+          "columns": [
+            "Selection",
+            "When to use it"
+          ],
+          "rows": [
+            [
+              "Region",
+              "Choose a different geographic server group. Compare ping or use the group where your friends play."
+            ],
+            [
+              "State or server",
+              "Choose a specific instance within the group. Ask your friend for their exact state ID when an invite says they are on another server."
+            ],
+            [
+              "Steam account",
+              "Verify that you are signed into the account that owns the progress you expect to see."
+            ],
+            [
+              "Party invite",
+              "Send a fresh invite after everyone has confirmed the same state."
+            ]
+          ]
+        },
+        "sources": [
+          {
+            "label": "November 4: First Changes & Server Schedule",
+            "url": "https://store.steampowered.com/news/app/4262460/view/712291399099220569"
+          },
+          {
+            "label": "Kefir Help Center: Inviting a friend on another server",
+            "url": "https://kefirgames.helpshift.com/hc/en/14-rob-run/faq/1382-how-to-invite-a-friend-to-a-party-if-it-says-they-are-on-another-server/"
+          }
+        ],
+        "subsections": [
+          {
+            "heading": "Both players are in the same region",
+            "paragraphs": [
+              "A friend can be in the same region and still on a different state. Ask for the exact state ID and compare it with your own. If the invite specifically says the friend is on another server, Kefir’s documented route uses Prison and then selects the friend’s state. Follow the ROB RUN server-switching guide for the state move and its confirmation."
+            ]
+          },
+          {
+            "heading": "Your friend is in a different region",
+            "paragraphs": [
+              "Agree on the destination before anyone surrenders. First locate the region where your friend is playing, then verify the exact state you want to join within that region. If one player already has a developed base and the other has just started, read the current warnings together and decide who is in a better position to move.",
+              "Once the move is complete, ask both players to read back the state ID before resending the invite. Comparing the IDs helps you diagnose an invite failure even when both players selected Europe or both selected North America."
+            ]
+          },
+          {
+            "heading": "Decide which ping matters",
+            "paragraphs": [
+              "If you usually play solo, compare the two ping values shown in the selector. Ping measures latency to the region, while your exact state determines who shares your server. If a group wants to play together, ask everyone to check their readings and agree on a region and state before someone leaves an established game."
+            ]
+          },
+          {
+            "heading": "If you cannot access the Region row",
+            "paragraphs": [
+              "Check whether your character is in Prison and whether you are looking in the Other tab. If you cannot reach the game at all, record where it stops and any displayed code. The ROB RUN connection and server status guide helps distinguish a startup or regional service problem from a menu that is unavailable during play."
+            ]
+          }
+        ],
+        "inlineLinks": [
+          {
+            "label": "ROB RUN server-switching guide",
+            "slug": "change-server"
+          },
+          {
+            "label": "ROB RUN connection and server status guide",
+            "slug": "server-status"
+          }
+        ]
+      },
+      {
+        "id": "what-transfers",
+        "heading": "Battle Pass progress and what to check after switching",
+        "table": {
+          "caption": "Progress to check before confirming a region change",
+          "columns": [
+            "Progress",
+            "What to expect"
+          ],
+          "rows": [
+            [
+              "Battle Pass points",
+              "Kefir explicitly confirms carryover. Note your total in the old region so you can compare after switching."
+            ],
+            [
+              "Rewards and other seasonal balances",
+              "The Steam note specifies Battle Pass points. Record the exact reward or balance name if something else changes."
+            ],
+            [
+              "Cash, gear, plots and stored property",
+              "The patch refers to progress in general and gives no itemized transfer list. Read the current game prompt before moving with assets you want to keep."
+            ]
+          ]
+        },
+        "paragraphs": [
+          "Kefir’s November 17 announcement specifically confirms cross-region Battle Pass points. Use the November 17 ROB RUN patch breakdown if you are comparing a pre-patch guide with the current rule. Keep your points, individual rewards and server property as separate checks when you read what the announcement covers."
+        ],
+        "sources": [
+          {
+            "label": "Kefir Help Center: I lost my progress",
+            "url": "https://kefirgames.helpshift.com/hc/en/14-rob-run/faq/1371-i-lost-my-progress-what-should-i-do/"
+          },
+          {
+            "label": "Kefir Help Center: Where to find your UID",
+            "url": "https://kefirgames.helpshift.com/hc/en/14-rob-run/faq/1372-where-can-i-find-my-id/"
+          },
+          {
+            "label": "Kefir Help Center: ROB RUN error codes",
+            "url": "https://kefirgames.helpshift.com/hc/en/14-rob-run/faq/1377-what-should-i-do-if-i-get-an-error-code/"
+          }
+        ],
+        "inlineLinks": [
+          {
+            "label": "November 17 ROB RUN patch breakdown",
+            "slug": "patch-notes"
+          }
+        ],
+        "subsections": [
+          {
+            "heading": "Save a before-and-after check",
+            "paragraphs": [
+              "Record the current region, Steam account and Battle Pass points before confirming the move. When you reach the destination, open the same pass and compare the same number. If you were looking at a reward or tier when you last checked, also find the actual points balance so you can report the right value.",
+              "Keep any in-game warning about property or progress. The November 17 post gives no separate carryover rules for an inventory, bank balance, land or vehicle. If the client shows a warning about something you plan to keep, stop at the confirmation until you understand its scope."
+            ]
+          },
+          {
+            "heading": "If points still appear missing",
+            "paragraphs": [
+              "Start with the Steam account and destination region. If you also entered a different state, record both state IDs. Write down the old points, the new points, the time of the change and whether the difference appeared before or after joining the destination state.",
+              "Kefir asks for the UID, character name and approximate time for unexpected progress loss. Press Esc and copy the UID shown under the character name. If the game instead reports E-0301 or E-0302, Kefir’s error article directs you to restart Steam and update the client before retrying."
+            ]
+          }
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "Can I change region without switching to my friend’s specific state?",
+        "answer": "The region selector chooses a geographic group. When your goal is to join a friend, also check their exact state ID and use the state selection flow."
+      },
+      {
+        "question": "Does my Battle Pass reset when I change region?",
+        "answer": "Kefir’s November 17 Steam notes say Battle Pass points carry over between regions. The notes give no separate rules for individual rewards or inventory items."
+      },
+      {
+        "question": "Where can I look if the Region option is unavailable?",
+        "answer": "Check the Other tab in Settings while you are in Prison. If you are moving to join friends, confirm the state and region they are in before surrendering."
+      },
+      {
+        "question": "Which region should I pick if I want to play with friends?",
+        "answer": "Pick the region your friends agree to play in and then find their exact state. A lower ping can help choose between regional groups when everyone has the option to move."
+      },
+      {
+        "question": "Can a region change move my base or cash?",
+        "answer": "Kefir’s patch confirms Battle Pass points and supplies no item-by-item transfer list for assets. Read the current in-game prompt for your move and save any warning involving property you intend to keep."
+      }
+    ],
+    "relatedSlugs": [
+      "change-server",
+      "patch-notes"
+    ],
+    "navVisible": true,
+    "navGroup": "guides",
+    "lastReviewed": "2026-11-17"
   }
 ]

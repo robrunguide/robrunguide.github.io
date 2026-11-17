@@ -19,8 +19,8 @@ function isCurrent(slug: string, pathname: string) {
   return path === target || path.endsWith(target);
 }
 
-export function SiteHeader({ links }: { links: InternalLink[] }) {
-  if (isFixedTemplate()) return <FixedTemplateHeader links={links} />;
+export function SiteHeader({ links, guideSlugs }: { links: InternalLink[]; guideSlugs: string[] }) {
+  if (isFixedTemplate()) return <FixedTemplateHeader links={links} guideSlugs={guideSlugs} />;
   const skin = siteSkin();
   if (skin !== "portal" && skin !== "wiki") return <SkinHeader links={links} skin={skin} />;
   return <PortalHeader links={links} />;

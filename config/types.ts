@@ -152,6 +152,8 @@ export interface PageSection {
   bullets?: string[];
   subsections?: Subsection[];
   links?: InternalLink[];
+  inlineLinks?: InternalLink[];
+  sources?: Array<{ label: string; url: string }>;
   steps?: Array<{ heading: string; description: string }>;
   table?: DataTable;
 }
@@ -176,11 +178,13 @@ export interface SeoPageDefinition {
   title: string;
   description: string;
   navVisible: boolean;
+  navGroup?: "guides";
   parentSlug?: string | null;
   hero: {
     eyebrow?: string;
     heading: string;
     lead: string;
+    source?: { label: string; url: string };
   };
   sections: PageSection[];
   faq?: FaqItem[];

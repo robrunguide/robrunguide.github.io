@@ -8,8 +8,9 @@ import { homePage } from "@/content/home";
 import { isFixedTemplate } from "@/lib/fixed-template/mode";
 import { renderFixedDocument, esc } from "@/lib/fixed-template/render";
 import { assetPath, routePath } from "@/lib/urls";
+import { PortalGuideHeader } from "./portal-guide-header";
 
-export function FixedTemplateHeader({ links }: { links: InternalLink[] }) {
+export function FixedTemplateHeader({ links, guideSlugs }: { links: InternalLink[]; guideSlugs: string[] }) {
   const pathname = usePathname() || "/";
   if (!isFixedTemplate()) return null;
   const skin = siteSkin();
@@ -23,6 +24,9 @@ export function FixedTemplateHeader({ links }: { links: InternalLink[] }) {
       label: link.label,
       href: routePath(link.slug),
     }));
+  if (skin === "portal" && guideSlugs.length) {
+    return <div><PortalGuideHeader links={nav} guideSlugs={guideSlugs} currentSlug={currentSlug} /></div>;
+  }
   const rendered = renderFixedDocument({
     skin,
     page,

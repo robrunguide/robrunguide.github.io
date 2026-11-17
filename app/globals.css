@@ -529,3 +529,90 @@ html[data-skin="horror"] .skin-article-hero { border: 0; min-height: 28vh; }
   .skin-nav { display: none; width: 100%; }
   .skin-nav.is-open { display: flex; flex-direction: column; padding-bottom: .8rem; }
 }
+
+/* Keep the fixed portal's existing links in place and let the new group open past the nav row. */
+body[data-fixed-template="portal"] .portal-guide-header .nav {
+  overflow: visible;
+}
+
+.portal-guide-header .portal-more-guides {
+  position: relative;
+}
+
+body[data-fixed-template="portal"] .portal-guide-header .portal-mobile-toggle,
+.portal-guide-header .portal-guide-links[data-open="false"] {
+  display: none;
+}
+
+.portal-guide-header button.nav-link {
+  gap: .35rem;
+}
+
+.portal-guide-header .portal-guide-links {
+  position: absolute;
+  inset: 100% 0 auto auto;
+  z-index: 1;
+  display: grid;
+  min-width: 10rem;
+  padding: .35rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: hsl(var(--background));
+}
+
+body[data-fixed-template="portal"] .portal-guide-header .portal-guide-links a {
+  justify-content: flex-start;
+}
+
+.portal-guide-header :is(a, button):focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: -2px;
+}
+
+@media (max-width: 760px) {
+  /* Long, plain-text source URLs in the original guides can overflow a phone viewport. */
+  body[data-fixed-template="portal"] #main-content :is(#official-reference, #official-sources) > p {
+    overflow-wrap: anywhere;
+  }
+
+  body[data-fixed-template="portal"] .portal-guide-header .wrap.header {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+  }
+
+  body[data-fixed-template="portal"] .portal-guide-header .nav {
+    grid-column: 1 / -1;
+    display: grid !important;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  body[data-fixed-template="portal"] .portal-guide-header .nav[data-open="false"],
+  body[data-fixed-template="portal"] .portal-guide-header .portal-guides-toggle {
+    display: none !important;
+  }
+
+  body[data-fixed-template="portal"] .portal-guide-header .portal-mobile-toggle {
+    display: inline-flex;
+  }
+
+  .portal-guide-header .portal-more-guides {
+    grid-column: 1 / -1;
+    border-top: 1px solid var(--line);
+  }
+
+  .portal-guide-header .portal-guide-links[data-open] {
+    position: static;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 4px;
+    padding: 4px 0 0;
+    border: 0;
+    background: transparent;
+  }
+
+  body[data-fixed-template="portal"] .portal-guide-header .nav a {
+    min-height: 44px;
+    justify-content: flex-start;
+  }
+}

@@ -1,8 +1,25 @@
 import { ArrowRight, CheckCircle2 } from "lucide-react";
 import Link from "next/link";
-import type { PageSection } from "@/config/types";
+import type { ReactNode } from "react";
+import type { InternalLink, PageSection } from "@/config/types";
 import { routePath } from "@/lib/urls";
 import { DataTable } from "./data-table";
+
+function linkedText(text: string, links: InternalLink[] = []) {
+  const parts: ReactNode[] = [];
+  let remaining = text;
+
+  // Content defines anchors in reading order; keep all surrounding copy verbatim.
+  for (const link of links) {
+    const start = remaining.indexOf(link.label);
+    if (start < 0) continue;
+    parts.push(remaining.slice(0, start));
+    parts.push(<Link key={link.slug} href={routePath(link.slug)} className="underline">{link.label}</Link>);
+    remaining = remaining.slice(start + link.label.length);
+  }
+
+  return parts.length ? [...parts, remaining] : text;
+}
 
 export function PageSections({ sections }: { sections: PageSection[] }) {
   return (
@@ -11,8 +28,8 @@ export function PageSections({ sections }: { sections: PageSection[] }) {
         <section id={section.id} key={section.id} className="scroll-mt-24">
           {section.eyebrow ? <p className="eyebrow">{section.eyebrow}</p> : null}
           <h2>{section.heading}</h2>
-          {section.intro ? <p className="section-lead">{section.intro}</p> : null}
-          {section.paragraphs?.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
+          {section.intro ? <p className="section-lead">{linkedText(section.intro, section.inlineLinks)}</p> : null}
+          {section.paragraphs?.map((paragraph) => <p key={paragraph}>{linkedText(paragraph, section.inlineLinks)}</p>)}
 
           {section.bullets?.length ? (
             <ul className="mt-4 space-y-2">
@@ -30,7 +47,7 @@ export function PageSections({ sections }: { sections: PageSection[] }) {
               {section.subsections.map((subsection) => (
                 <article key={subsection.heading} className="content-card">
                   <h3>{subsection.heading}</h3>
-                  {subsection.paragraphs.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
+                  {subsection.paragraphs.map((paragraph) => <p key={paragraph}>{linkedText(paragraph, section.inlineLinks)}</p>)}
                   {subsection.bullets?.length ? (
                     <ul className="mt-4 space-y-2">
                       {subsection.bullets.map((bullet) => <li key={bullet} className="flex gap-2"><CheckCircle2 className="mt-1 shrink-0 text-primary" size={17} /><span>{bullet}</span></li>)}
@@ -55,6 +72,14 @@ export function PageSections({ sections }: { sections: PageSection[] }) {
           ) : null}
 
           {section.table ? <DataTable table={section.table} /> : null}
+
+          {section.sources?.length ? (
+            <ul className="mt-4 list-disc space-y-2 pl-6 text-sm">
+              {section.sources.map((source) => (
+                <li key={source.url}><a href={source.url} className="underline" rel="noopener noreferrer">{source.label}</a></li>
+              ))}
+            </ul>
+          ) : null}
 
           {section.links?.length ? (
             <div className="mt-7 grid gap-4 sm:grid-cols-2">

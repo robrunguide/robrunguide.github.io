@@ -28,8 +28,9 @@ export function FixedTemplateInner({page}:{page:SeoPageDefinition}){
         <Breadcrumbs slug={page.slug} current={page.hero.heading}/>
         {page.hero.eyebrow?<p className="eyebrow">{page.hero.eyebrow}</p>:null}
         <h1>{page.hero.heading}</h1>
-        <p className="mt-2 text-xs text-muted-foreground">Last updated: <time dateTime={page.lastReviewed}>{page.lastReviewed}</time> · Part of the <Link href={routePath("")} className="underline">{siteConfig.game.name} guide</Link></p>
+        <p className="mt-2 text-xs text-muted-foreground">{page.hero.source ? "Sources checked: " : "Last updated: "}<time dateTime={page.lastReviewed}>{page.lastReviewed}</time> · Part of the <Link href={routePath("")} className="underline">{siteConfig.game.name} guide</Link></p>
         <p className="mt-6 max-w-3xl text-lg leading-8">{page.hero.lead}</p>
+        {page.hero.source ? <p className="mt-3 text-sm"><a href={page.hero.source.url} className="underline" rel="noopener noreferrer">{page.hero.source.label}</a></p> : null}
       </section>
       <NativeAdSlot/>
       <PageSections sections={page.sections.filter(s=>Boolean(s.heading?.trim()))}/>
